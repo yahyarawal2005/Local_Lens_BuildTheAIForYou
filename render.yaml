@@ -1,0 +1,62 @@
+services:
+  # =========================================================
+  # 1. FastAPI Backend (AI Recommendations, Groq, Rides, Weather)
+  # =========================================================
+  - type: web
+    name: locallens-backend
+    env: python
+    rootDir: backend
+    plan: free
+    region: oregon
+    buildCommand: "pip install --upgrade pip && pip install -r requirements.txt"
+    startCommand: "uvicorn app.main:app --host 0.0.0.0 --port $PORT"
+    healthCheckPath: /health
+    autoDeploy: true
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.9
+      - key: ENVIRONMENT
+        value: development
+      - key: PROJECT_NAME
+        value: "LocalLens API"
+      - key: VERSION
+        value: "0.1.0"
+      - key: WEATHER_API_KEY
+        value: 9fb8d155eeb443116f6d35e81215a121
+      - key: OPENWEATHER_API_KEY
+        value: 9fb8d155eeb443116f6d35e81215a121
+      - key: NUGEN_ENABLED
+        value: "true"
+      - key: NUGEN_API_KEY
+        value: nugen-602743bd5ae65c8f
+      - key: NUGEN_MODEL
+        value: nugen-flash-instruct
+      - key: GROQ_API_KEY
+        sync: false
+      - key: CORS_ORIGINS
+        value: '["*"]'
+
+  # =========================================================
+  # 2. Provider Web Frontend (Next.js 15)
+  # =========================================================
+  - type: web
+    name: locallens-provider-web
+    env: node
+    rootDir: provider-web
+    plan: free
+    region: oregon
+    buildCommand: "npm install && npm run build"
+    startCommand: "npx next start -p $PORT"
+    autoDeploy: true
+    envVars:
+      - key: NODE_VERSION
+        value: "20.18.0"
+      - key: NEXT_PUBLIC_API_URL
+        fromService:
+          type: web
+          name: locallens-backend
+          property: host
+      - key: NEXT_PUBLIC_SUPABASE_URL
+        value: https://mvokdnefwukzouuttsvz.supabase.co
+      - key: NEXT_PUBLIC_SUPABASE_ANON_KEY
+        value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im12b2tkbmVmd3Vrem91dXR0c3Z6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTAzNTA1NzksImV4cCI6MjEwNTkyNjU3OX0.KsNjS6EP6hyw2-JZlKgvV3AdqpZudVGCI7guH0YE9w4

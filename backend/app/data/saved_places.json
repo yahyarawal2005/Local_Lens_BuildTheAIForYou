@@ -1,0 +1,13 @@
+{
+  "user_saved_place_test": [],
+  "user_alice_456": [
+    {
+      "id": "69aba342-389e-4e84-8754-38777cc5e483",
+      "user_id": "user_alice_456",
+      "place_id": "EXP-SECRET-ALICE",
+      "place_data": {},
+      "notes": "Alice's private bookmark",
+      "created_at": "2026-10-24T21:06:33.441980"
+    }
+  ]
+}

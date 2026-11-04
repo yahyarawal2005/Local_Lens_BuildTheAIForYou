@@ -1,0 +1,200 @@
+[
+  {
+    "id": "8edd70f5-1826-42ee-a018-4612fafd5657",
+    "user_id": "anonymous_traveler",
+    "itinerary_id": "ITIN-TEST-SAMPLE",
+    "place_id": "EXP-FOOD-001",
+    "rating": 5,
+    "feedback_type": "place",
+    "comments": "The breakfast walk was absolutely phenomenal!",
+    "metadata": {},
+    "created_at": "2026-10-23T20:07:05.549477"
+  },
+  {
+    "id": "c9f2cdd7-385d-40b7-b79c-6df5a107d02d",
+    "user_id": "anonymous_traveler",
+    "itinerary_id": "ITIN-TEST-SAMPLE",
+    "place_id": "EXP-FOOD-001",
+    "rating": 5,
+    "feedback_type": "place",
+    "comments": "The breakfast walk was absolutely phenomenal!",
+    "metadata": {},
+    "created_at": "2026-10-23T20:10:20.912705"
+  },
+  {
+    "id": "2fe0d4c5-7b7b-4aa2-a7d9-10c94472de52",
+    "user_id": "anonymous_traveler",
+    "itinerary_id": "ITIN-TEST-SAMPLE",
+    "place_id": "EXP-FOOD-001",
+    "rating": 5,
+    "feedback_type": "place",
+    "comments": "The breakfast walk was absolutely phenomenal!",
+    "metadata": {},
+    "created_at": "2026-10-23T20:11:07.057129"
+  },
+  {
+    "id": "6231a19e-223e-4d63-92da-401fd77e0591",
+    "user_id": "anonymous_traveler",
+    "itinerary_id": "ITIN-TEST-SAMPLE",
+    "place_id": "EXP-FOOD-001",
+    "rating": 5,
+    "feedback_type": "place",
+    "comments": "The breakfast walk was absolutely phenomenal!",
+    "metadata": {},
+    "created_at": "2026-10-23T20:12:46.551745"
+  },
+  {
+    "id": "f119fc50-0d57-45b3-af89-e906fa7863b8",
+    "user_id": "anonymous_traveler",
+    "itinerary_id": "ITIN-TEST-SAMPLE",
+    "place_id": "EXP-FOOD-001",
+    "rating": 5,
+    "feedback_type": "place",
+    "comments": "The breakfast walk was absolutely phenomenal!",
+    "metadata": {},
+    "created_at": "2026-10-23T20:19:48.458571"
+  },
+  {
+    "id": "adf06b44-e419-4b4f-92e5-ed8cddc948b0",
+    "user_id": "anonymous_traveler",
+    "itinerary_id": "ITIN-TEST-SAMPLE",
+    "place_id": "EXP-FOOD-001",
+    "rating": 5,
+    "feedback_type": "place",
+    "comments": "The breakfast walk was absolutely phenomenal!",
+    "metadata": {},
+    "created_at": "2026-10-23T20:28:33.933801"
+  },
+  {
+    "id": "c53c14ab-59eb-4fbe-93d3-cd9ee6f2db08",
+    "user_id": "anonymous_traveler",
+    "itinerary_id": "ITIN-TEST-SAMPLE",
+    "place_id": "EXP-FOOD-001",
+    "rating": 5,
+    "feedback_type": "place",
+    "comments": "The breakfast walk was absolutely phenomenal!",
+    "metadata": {},
+    "created_at": "2026-10-24T13:55:41.403103"
+  },
+  {
+    "id": "5515871d-fd25-4357-be82-47c748369330",
+    "user_id": "anonymous_traveler",
+    "itinerary_id": "ITIN-TEST-SAMPLE",
+    "place_id": "EXP-FOOD-001",
+    "rating": 5,
+    "feedback_type": "place",
+    "comments": "The breakfast walk was absolutely phenomenal!",
+    "metadata": {},
+    "created_at": "2026-10-24T14:29:15.388968"
+  },
+  {
+    "id": "ec002fda-7a2f-4ab7-9050-b105fc875861",
+    "user_id": "anonymous_traveler",
+    "itinerary_id": "ITIN-TEST-SAMPLE",
+    "place_id": "EXP-FOOD-001",
+    "rating": 5,
+    "feedback_type": "place",
+    "comments": "The breakfast walk was absolutely phenomenal!",
+    "metadata": {},
+    "created_at": "2026-10-24T20:35:34.013208"
+  },
+  {
+    "id": "e3c8f91e-424b-4eb8-b4fc-63741ce606ac",
+    "user_id": "feedback_test_user",
+    "itinerary_id": null,
+    "place_id": "EXP-DELHI-001",
+    "rating": 5,
+    "feedback_type": "trip",
+    "comments": "Outstanding authentic food walk!",
+    "metadata": {},
+    "created_at": "2026-10-24T20:57:58.072771"
+  },
+  {
+    "id": "ac738561-d032-4ae8-9b83-58c7fd9dc002",
+    "user_id": "feedback_test_user",
+    "itinerary_id": null,
+    "place_id": "EXP-DELHI-001",
+    "rating": 5,
+    "feedback_type": "trip",
+    "comments": "Outstanding authentic food walk!",
+    "metadata": {},
+    "created_at": "2026-10-24T20:59:08.001635"
+  },
+  {
+    "id": "d2ccfbbc-95c6-40c1-b5d5-8db2dec0d640",
+    "user_id": "feedback_test_user",
+    "itinerary_id": null,
+    "place_id": "EXP-DELHI-001",
+    "rating": 5,
+    "feedback_type": "trip",
+    "comments": "Outstanding authentic food walk!",
+    "metadata": {},
+    "created_at": "2026-10-24T21:00:22.651701"
+  },
+  {
+    "id": "debc5648-baa8-4232-b352-baa8b9746a9c",
+    "user_id": "feedback_test_user",
+    "itinerary_id": null,
+    "place_id": "EXP-DELHI-001",
+    "rating": 5,
+    "feedback_type": "trip",
+    "comments": "Outstanding authentic food walk!",
+    "metadata": {},
+    "created_at": "2026-10-24T21:00:59.552058"
+  },
+  {
+    "id": "c02c54a7-f27a-4545-909f-e1dab69449a5",
+    "user_id": "feedback_test_user",
+    "itinerary_id": null,
+    "place_id": "EXP-DELHI-001",
+    "rating": 5,
+    "feedback_type": "trip",
+    "comments": "Outstanding authentic food walk!",
+    "metadata": {},
+    "created_at": "2026-10-24T21:02:03.017635"
+  },
+  {
+    "id": "eb9b2a55-9c36-47c7-8999-0f00825a102d",
+    "user_id": "feedback_test_user",
+    "itinerary_id": null,
+    "place_id": "EXP-DELHI-001",
+    "rating": 5,
+    "feedback_type": "trip",
+    "comments": "Outstanding authentic food walk!",
+    "metadata": {},
+    "created_at": "2026-10-24T21:03:42.837569"
+  },
+  {
+    "id": "b2e3bfc3-1eff-4547-9bac-5ae3315f5176",
+    "user_id": "anonymous_traveler",
+    "itinerary_id": "ITIN-TEST-SAMPLE",
+    "place_id": "EXP-FOOD-001",
+    "rating": 5,
+    "feedback_type": "place",
+    "comments": "The breakfast walk was absolutely phenomenal!",
+    "metadata": {},
+    "created_at": "2026-10-24T21:03:54.234059"
+  },
+  {
+    "id": "ae50f52b-5052-4524-a2af-490238a07dd9",
+    "user_id": "feedback_test_user",
+    "itinerary_id": null,
+    "place_id": "EXP-DELHI-001",
+    "rating": 5,
+    "feedback_type": "trip",
+    "comments": "Outstanding authentic food walk!",
+    "metadata": {},
+    "created_at": "2026-10-24T21:06:33.151581"
+  },
+  {
+    "id": "bef068ce-879f-4cf9-9cd8-db6cf7eaa3cd",
+    "user_id": "anonymous_traveler",
+    "itinerary_id": "ITIN-TEST-SAMPLE",
+    "place_id": "EXP-FOOD-001",
+    "rating": 5,
+    "feedback_type": "place",
+    "comments": "The breakfast walk was absolutely phenomenal!",
+    "metadata": {},
+    "created_at": "2026-10-24T21:06:44.037372"
+  }
+]

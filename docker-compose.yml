@@ -1,0 +1,56 @@
+version: '3.8'
+
+services:
+  # ----------------------------------------------------
+  # PostgreSQL + PostGIS Spatial Database
+  # ----------------------------------------------------
+  postgres:
+    image: postgis/postgis:16-3.4
+    container_name: locallens-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-locallens_db}
+      POSTGRES_USER: ${POSTGRES_USER:-locallens_user}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-locallens_password}
+    ports:
+      - "${POSTGRES_PORT:-5432}:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./database/schema.sql:/docker-entrypoint-initdb.d/01-schema.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-locallens_user} -d ${POSTGRES_DB:-locallens_db}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - locallens-network
+
+  # ----------------------------------------------------
+  # Redis Cache & Realtime Event Broker
+  # ----------------------------------------------------
+  redis:
+    image: redis:7-alpine
+    container_name: locallens-redis
+    restart: unless-stopped
+    command: redis-server --appendonly yes
+    ports:
+      - "${REDIS_PORT:-6379}:6379"
+    volumes:
+      - redis_data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - locallens-network
+
+volumes:
+  postgres_data:
+    driver: local
+  redis_data:
+    driver: local
+
+networks:
+  locallens-network:
+    driver: bridge

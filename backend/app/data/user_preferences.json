@@ -1,0 +1,33 @@
+{
+  "user_pref_test_777": {
+    "traveler_type": "couple",
+    "interests": [
+      "Photography",
+      "Nature"
+    ],
+    "travel_pace": "relaxed",
+    "budget_currency": "INR",
+    "budget_amount_per_person_per_day": 3500.0,
+    "accessibility_requirements": [],
+    "dietary_preferences": [],
+    "preferred_start_time": "09:00:00",
+    "preferred_transport": "flexible"
+  },
+  "user_pref_test_101": {
+    "traveler_type": "couple",
+    "interests": [
+      "nature",
+      "food",
+      "photography"
+    ],
+    "travel_pace": "relaxed",
+    "budget_currency": "INR",
+    "budget_amount_per_person_per_day": 3500.0,
+    "accessibility_requirements": [],
+    "dietary_preferences": [
+      "vegetarian"
+    ],
+    "preferred_start_time": "10:00:00",
+    "preferred_transport": "cab"
+  }
+}

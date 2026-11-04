@@ -1,0 +1,39 @@
+{
+  "user_test_uuid_12345": {
+    "id": "user_test_uuid_12345",
+    "email": "test_traveler@locallens.app",
+    "display_name": "Antigravity Explorer",
+    "photo_url": "https://lh3.googleusercontent.com/a/ACg8ocIq8x4d16wV9P-b2Wk?s=96-c",
+    "role": "traveler",
+    "traveler_type": "solo",
+    "travel_pace": "balanced",
+    "budget_preference": "moderate",
+    "language": "en",
+    "interests": [
+      "Food",
+      "Culture",
+      "Local Experiences"
+    ],
+    "accessibility": [],
+    "created_at": "2026-10-23T20:06:46.131182",
+    "updated_at": "2026-10-23T20:06:46.131182"
+  },
+  "user_pref_test_777": {
+    "id": "user_pref_test_777",
+    "email": "user_pre@locallens.app",
+    "display_name": "Traveler",
+    "photo_url": "https://lh3.googleusercontent.com/a/ACg8ocIq8x4d16wV9P-b2Wk?s=96-c",
+    "role": "traveler",
+    "traveler_type": "couple",
+    "travel_pace": "relaxed",
+    "budget_preference": "moderate",
+    "language": "hi",
+    "interests": [
+      "Heritage",
+      "Food"
+    ],
+    "accessibility": [],
+    "created_at": "2026-10-23T20:06:46.927458",
+    "updated_at": "2026-10-24T21:06:35.985197"
+  }
+}

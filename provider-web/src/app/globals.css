@@ -1,0 +1,178 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #0f172a;
+  --font-heading: 'Plus Jakarta Sans', 'Outfit', 'Noto Sans Devanagari', 'Noto Sans Bengali', system-ui, -apple-system, sans-serif;
+  --font-body: 'Plus Jakarta Sans', 'Inter', 'Noto Sans Devanagari', 'Noto Sans Bengali', system-ui, -apple-system, sans-serif;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+/* Headings, Hero titles, Big Numbers, Section titles */
+h1, h2, h3, .font-heading, .font-display, .font-anton {
+  font-family: var(--font-heading);
+  letter-spacing: -0.02em;
+}
+
+/* Controls, buttons, body content, labels */
+button, input, select, textarea, nav, .font-sans, .font-body {
+  font-family: var(--font-body);
+}
+
+.font-script {
+  font-family: 'Caveat', cursive, -apple-system, sans-serif;
+}
+
+@keyframes bounceGentle {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+.animate-bounce-gentle {
+  animation: bounceGentle 3.5s ease-in-out infinite;
+}
+
+@keyframes floatSubtle {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-4px);
+  }
+}
+
+.animate-float-subtle {
+  animation: floatSubtle 4s ease-in-out infinite;
+}
+
+@keyframes dashFlow {
+  to {
+    stroke-dashoffset: -28;
+  }
+}
+
+.animate-dash-flow {
+  animation: dashFlow 2s linear infinite;
+}
+
+@keyframes pulseGlow {
+  0%, 100% {
+    box-shadow: 0 0 15px rgba(20, 184, 166, 0.4);
+  }
+  50% {
+    box-shadow: 0 0 25px rgba(20, 184, 166, 0.7);
+  }
+}
+
+.glow-teal {
+  animation: pulseGlow 3s ease-in-out infinite;
+}
+
+/* Splash Entrance & Wave Animations */
+@keyframes splashPop {
+  0% {
+    transform: scale(0.84) translateY(35px);
+    opacity: 0;
+    filter: blur(8px);
+  }
+  60% {
+    transform: scale(1.03) translateY(-6px);
+    opacity: 1;
+    filter: blur(0px);
+  }
+  85% {
+    transform: scale(0.99) translateY(2px);
+  }
+  100% {
+    transform: scale(1) translateY(0);
+    opacity: 1;
+    filter: blur(0px);
+  }
+}
+
+.animate-splash {
+  animation: splashPop 0.85s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+}
+
+@keyframes splashPopDelayed {
+  0% {
+    transform: scale(0.88) translateY(25px);
+    opacity: 0;
+  }
+  65% {
+    transform: scale(1.02) translateY(-4px);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1) translateY(0);
+    opacity: 1;
+  }
+}
+
+.animate-splash-delayed {
+  animation: splashPopDelayed 0.8s cubic-bezier(0.34, 1.56, 0.64, 1) 0.25s forwards;
+}
+
+@keyframes waterRipple {
+  0% {
+    transform: scale(0.95);
+    opacity: 0.85;
+  }
+  70% {
+    transform: scale(1.08);
+    opacity: 0.2;
+  }
+  100% {
+    transform: scale(1.15);
+    opacity: 0;
+  }
+}
+
+.animate-water-ripple {
+  animation: waterRipple 3s cubic-bezier(0.16, 1, 0.3, 1) infinite;
+}
+
+/* Continuous Living Landscape Panning Animation */
+@keyframes oceanPanDrift {
+  0% {
+    transform: scale(1.10) translateX(0%);
+  }
+  50% {
+    transform: scale(1.10) translateX(-14%);
+  }
+  100% {
+    transform: scale(1.10) translateX(0%);
+  }
+}
+
+.animate-ocean-drift {
+  animation: oceanPanDrift 16s ease-in-out infinite;
+  will-change: transform;
+}
+
+@keyframes waveSheen {
+  0% {
+    transform: translateX(-120%) skewX(-20deg);
+  }
+  45%, 100% {
+    transform: translateX(240%) skewX(-20deg);
+  }
+}
+
+.animate-wave-sheen {
+  animation: waveSheen 6.5s ease-in-out infinite;
+}

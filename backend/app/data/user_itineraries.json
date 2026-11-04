@@ -1,0 +1,3740 @@
+[
+  {
+    "id": "ITIN-F208D00C62",
+    "itinerary_id": "ITIN-F208D00C62",
+    "user_id": "test-user-001",
+    "destination_name": "Delhi",
+    "destination_coords": {
+      "lat": 28.6139,
+      "lng": 77.209
+    },
+    "start_date": "2026-10-24",
+    "days_count": 2,
+    "pace": "balanced",
+    "traveler_type": "Couple",
+    "interests": [
+      "Culture",
+      "Food"
+    ],
+    "total_cost": 4500.0,
+    "total_duration_minutes": 900,
+    "days": [
+      {
+        "day_number": 1,
+        "date": "2026-10-24",
+        "weather_summary": {
+          "date": "2026-10-24",
+          "condition": "Overcast",
+          "temp_min_c": 20.7,
+          "temp_max_c": 30.0,
+          "average_temp_c": 25.4,
+          "precipitation_sum_mm": 0.0,
+          "rain_probability_pct": 31,
+          "wind_speed_kmh": 12.5,
+          "uv_index": 5.15,
+          "forecast_available": true,
+          "suitability_score": 0.95,
+          "suitability_reason": "Great outdoor sightseeing weather"
+        },
+        "activities": [
+          {
+            "place_id": "DELHI-036",
+            "name": "Chandni Chowk Food Walk",
+            "start_time": "09:30",
+            "end_time": "11:30",
+            "category": "Food",
+            "sub_category": "Street Food Walk",
+            "location": "Delhi",
+            "weather_rationale": "Favorable Overcast conditions for sightseeing",
+            "coordinates": {
+              "lat": 28.6506,
+              "lng": 77.2303
+            },
+            "price_inr": 1000.0,
+            "duration_minutes": 180,
+            "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Street%20Food.jpg",
+            "is_completed": false
+          },
+          {
+            "place_id": "DELHI-067",
+            "name": "Old Delhi Cooking Class - Mughlai Cuisine",
+            "start_time": "12:00",
+            "end_time": "14:00",
+            "category": "Workshop",
+            "sub_category": "Culinary Class",
+            "location": "Delhi",
+            "weather_rationale": "Favorable Overcast conditions for sightseeing",
+            "coordinates": {
+              "lat": 28.652,
+              "lng": 77.229
+            },
+            "price_inr": 2500.0,
+            "duration_minutes": 240,
+            "image_url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80",
+            "is_completed": false
+          },
+          {
+            "place_id": "DELHI-033",
+            "name": "Dilli Haat INA - Handicrafts Bazaar",
+            "start_time": "14:30",
+            "end_time": "16:30",
+            "category": "Shopping",
+            "sub_category": "Handicrafts Market",
+            "location": "Delhi",
+            "weather_rationale": "Favorable Overcast conditions for sightseeing",
+            "coordinates": {
+              "lat": 28.5717,
+              "lng": 77.2103
+            },
+            "price_inr": 30.0,
+            "duration_minutes": 150,
+            "image_url": "https://images.unsplash.com/photo-1533900298318-6b8da08a523e?w=800&q=80",
+            "is_completed": false
+          }
+        ]
+      },
+      {
+        "day_number": 2,
+        "date": "2026-10-25",
+        "weather_summary": {
+          "date": "2026-10-25",
+          "condition": "Mainly Clear",
+          "temp_min_c": 20.1,
+          "temp_max_c": 30.0,
+          "average_temp_c": 25.1,
+          "precipitation_sum_mm": 0.0,
+          "rain_probability_pct": 2,
+          "wind_speed_kmh": 8.3,
+          "uv_index": 5.05,
+          "forecast_available": true,
+          "suitability_score": 0.95,
+          "suitability_reason": "Great outdoor sightseeing weather"
+        },
+        "activities": [
+          {
+            "place_id": "DELHI-023",
+            "name": "Crafts Museum & Hastkala Academy",
+            "start_time": "09:30",
+            "end_time": "11:30",
+            "category": "Museum",
+            "sub_category": "Handicrafts",
+            "location": "Delhi",
+            "weather_rationale": "Favorable Mainly Clear conditions for sightseeing",
+            "coordinates": {
+              "lat": 28.6142,
+              "lng": 77.2431
+            },
+            "price_inr": 20.0,
+            "duration_minutes": 120,
+            "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Red%20Fort%20Delhi.jpg",
+            "is_completed": false
+          },
+          {
+            "place_id": "DELHI-040",
+            "name": "Jama Masjid Kebab & Street Food Trail",
+            "start_time": "12:00",
+            "end_time": "14:00",
+            "category": "Food",
+            "sub_category": "Street Food Walk",
+            "location": "Delhi",
+            "weather_rationale": "Favorable Mainly Clear conditions for sightseeing",
+            "coordinates": {
+              "lat": 28.651,
+              "lng": 77.2325
+            },
+            "price_inr": 700.0,
+            "duration_minutes": 120,
+            "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Street%20Food.jpg",
+            "is_completed": false
+          },
+          {
+            "place_id": "DELHI-058",
+            "name": "ISKCON Temple Delhi",
+            "start_time": "14:30",
+            "end_time": "16:30",
+            "category": "Religious",
+            "sub_category": "Krishna Temple",
+            "location": "Delhi",
+            "weather_rationale": "Favorable Mainly Clear conditions for sightseeing",
+            "coordinates": {
+              "lat": 28.5518,
+              "lng": 77.2596
+            },
+            "price_inr": 250.0,
+            "duration_minutes": 90,
+            "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Khandoba%20temple%20Pune.jpg",
+            "is_completed": false
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "generation_method": "weather_aware_ml_pipeline",
+      "weather_source": "open-meteo",
+      "days_count": 2,
+      "warnings": []
+    },
+    "created_at": "2026-10-24T14:28:52.085723",
+    "updated_at": "2026-10-24T14:28:52.085727"
+  },
+  {
+    "id": "ITIN-A684BDA6AF",
+    "itinerary_id": "ITIN-A684BDA6AF",
+    "user_id": "test-user-001",
+    "destination_name": "Hyderabad",
+    "destination_coords": {
+      "lat": 17.385,
+      "lng": 78.4867
+    },
+    "start_date": "2026-10-24",
+    "days_count": 2,
+    "pace": "balanced",
+    "traveler_type": "Couple",
+    "interests": [
+      "Culture",
+      "Food"
+    ],
+    "total_cost": 2750.0,
+    "total_duration_minutes": 930,
+    "days": [
+      {
+        "day_number": 1,
+        "date": "2026-10-24",
+        "weather_summary": {
+          "date": "2026-10-24",
+          "condition": "Overcast",
+          "temp_min_c": 25.0,
+          "temp_max_c": 31.1,
+          "average_temp_c": 28.1,
+          "precipitation_sum_mm": 0.0,
+          "rain_probability_pct": 0,
+          "wind_speed_kmh": 11.1,
+          "uv_index": 7.75,
+          "forecast_available": true,
+          "suitability_score": 0.95,
+          "suitability_reason": "Great outdoor sightseeing weather"
+        },
+        "activities": [
+          {
+            "place_id": "EXP-HYD-004",
+            "name": "Salar Jung Museum World Antique Treasures",
+            "start_time": "09:30",
+            "end_time": "11:30",
+            "category": "Culture",
+            "sub_category": "Historic Museum",
+            "location": "Hyderabad",
+            "weather_rationale": "Favorable Overcast conditions for sightseeing",
+            "coordinates": {
+              "lat": 17.3713,
+              "lng": 78.4804
+            },
+            "price_inr": 200.0,
+            "duration_minutes": 180,
+            "image_url": "https://images.unsplash.com/photo-1609949279531-cf48d64bed89?w=800&q=80",
+            "is_completed": false
+          },
+          {
+            "place_id": "EXP-HYD-003",
+            "name": "Authentic Hyderabadi Dum Biryani & Irani Chai Tasting",
+            "start_time": "12:00",
+            "end_time": "14:00",
+            "category": "Food",
+            "sub_category": "Royal Culinary",
+            "location": "Hyderabad",
+            "weather_rationale": "Favorable Overcast conditions for sightseeing",
+            "coordinates": {
+              "lat": 17.365,
+              "lng": 78.478
+            },
+            "price_inr": 450.0,
+            "duration_minutes": 120,
+            "image_url": "https://images.unsplash.com/photo-1567337710282-00832b415979?w=800&q=80",
+            "is_completed": false
+          },
+          {
+            "place_id": "EXP-HYD-001",
+            "name": "Charminar & Laad Bazaar Pearl & Lacquer Bangle Walk",
+            "start_time": "14:30",
+            "end_time": "16:30",
+            "category": "Culture",
+            "sub_category": "Monument & Bazaar",
+            "location": "Hyderabad",
+            "weather_rationale": "Favorable Overcast conditions for sightseeing",
+            "coordinates": {
+              "lat": 17.3616,
+              "lng": 78.4747
+            },
+            "price_inr": 250.0,
+            "duration_minutes": 150,
+            "image_url": "https://images.unsplash.com/photo-1598890777032-bde13fbe34e5?w=800&q=80",
+            "is_completed": false
+          }
+        ]
+      },
+      {
+        "day_number": 2,
+        "date": "2026-10-25",
+        "weather_summary": {
+          "date": "2026-10-25",
+          "condition": "Overcast",
+          "temp_min_c": 23.5,
+          "temp_max_c": 32.1,
+          "average_temp_c": 27.8,
+          "precipitation_sum_mm": 0.0,
+          "rain_probability_pct": 0,
+          "wind_speed_kmh": 14.5,
+          "uv_index": 7.7,
+          "forecast_available": true,
+          "suitability_score": 0.95,
+          "suitability_reason": "Great outdoor sightseeing weather"
+        },
+        "activities": [
+          {
+            "place_id": "EXP-HYD-002",
+            "name": "Golconda Fort Acoustic Marvels & Sunset Trek",
+            "start_time": "09:30",
+            "end_time": "11:30",
+            "category": "Adventure",
+            "sub_category": "Fort Trek",
+            "location": "Hyderabad",
+            "weather_rationale": "Favorable Overcast conditions for sightseeing",
+            "coordinates": {
+              "lat": 17.3833,
+              "lng": 78.4011
+            },
+            "price_inr": 300.0,
+            "duration_minutes": 180,
+            "image_url": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=800&q=80",
+            "is_completed": false
+          },
+          {
+            "place_id": "EXP-HYD-008",
+            "name": "Qutb Shahi Tombs Heritage Garden Promenade",
+            "start_time": "12:00",
+            "end_time": "14:00",
+            "category": "Nature",
+            "sub_category": "Heritage Gardens",
+            "location": "Hyderabad",
+            "weather_rationale": "Favorable Overcast conditions for sightseeing",
+            "coordinates": {
+              "lat": 17.3892,
+              "lng": 78.3957
+            },
+            "price_inr": 150.0,
+            "duration_minutes": 120,
+            "image_url": "https://images.unsplash.com/photo-1596176530529-78163a4f7af2?w=800&q=80",
+            "is_completed": false
+          },
+          {
+            "place_id": "EXP-HYD-006",
+            "name": "Jubilee Hills Rooftop Lounges & Nightlife Hop",
+            "start_time": "14:30",
+            "end_time": "16:30",
+            "category": "Nightlife",
+            "sub_category": "Upscale Lounges",
+            "location": "Hyderabad",
+            "weather_rationale": "Favorable Overcast conditions for sightseeing",
+            "coordinates": {
+              "lat": 17.4319,
+              "lng": 78.4073
+            },
+            "price_inr": 1400.0,
+            "duration_minutes": 180,
+            "image_url": "https://images.unsplash.com/photo-1572116469696-31de0f17cc34?w=800&q=80",
+            "is_completed": false
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "generation_method": "weather_aware_ml_pipeline",
+      "weather_source": "open-meteo",
+      "days_count": 2,
+      "warnings": []
+    },
+    "created_at": "2026-10-24T14:28:49.944003",
+    "updated_at": "2026-10-24T14:28:49.944009"
+  },
+  {
+    "id": "ITIN-527CB066CF",
+    "itinerary_id": "ITIN-527CB066CF",
+    "user_id": "test-user-001",
+    "destination_name": "Bengaluru",
+    "destination_coords": {
+      "lat": 12.9716,
+      "lng": 77.5946
+    },
+    "start_date": "2026-10-24",
+    "days_count": 2,
+    "pace": "balanced",
+    "traveler_type": "Couple",
+    "interests": [
+      "Culture",
+      "Food"
+    ],
+    "total_cost": 2450.0,
+    "total_duration_minutes": 870,
+    "days": [
+      {
+        "day_number": 1,
+        "date": "2026-10-24",
+        "weather_summary": {
+          "date": "2026-10-24",
+          "condition": "Moderate Rain Showers",
+          "temp_min_c": 19.6,
+          "temp_max_c": 25.3,
+          "average_temp_c": 22.5,
+          "precipitation_sum_mm": 20.3,
+          "rain_probability_pct": 90,
+          "wind_speed_kmh": 11.3,
+          "uv_index": 7.85,
+          "forecast_available": true,
+          "suitability_score": 0.6,
+          "suitability_reason": "Rain expected; prefer indoor/sheltered experiences"
+        },
+        "activities": [
+          {
+            "place_id": "EXP-BLR-005",
+            "name": "Visvesvaraya Industrial & Science Museum Experience",
+            "start_time": "09:30",
+            "end_time": "11:30",
+            "category": "Culture",
+            "sub_category": "Science & Innovation",
+            "location": "Bengaluru",
+            "weather_rationale": "Ideal sheltered/indoor stop for Moderate Rain Showers weather",
+            "coordinates": {
+              "lat": 12.9754,
+              "lng": 77.596
+            },
+            "price_inr": 200.0,
+            "duration_minutes": 150,
+            "image_url": "https://images.unsplash.com/photo-1609949279531-cf48d64bed89?w=800&q=80",
+            "is_completed": false
+          },
+          {
+            "place_id": "EXP-BLR-003",
+            "name": "Bangalore Palace Tudor Royal Architecture Tour",
+            "start_time": "12:00",
+            "end_time": "14:00",
+            "category": "Culture",
+            "sub_category": "Royal Palace",
+            "location": "Bengaluru",
+            "weather_rationale": "Ideal sheltered/indoor stop for Moderate Rain Showers weather",
+            "coordinates": {
+              "lat": 12.9988,
+              "lng": 77.5921
+            },
+            "price_inr": 450.0,
+            "duration_minutes": 150,
+            "image_url": "https://images.unsplash.com/photo-1598890777032-bde13fbe34e5?w=800&q=80",
+            "is_completed": false
+          },
+          {
+            "place_id": "EXP-BLR-002",
+            "name": "VV Puram Food Street Culinary Walk",
+            "start_time": "14:30",
+            "end_time": "16:30",
+            "category": "Food",
+            "sub_category": "Street Food",
+            "location": "Bengaluru",
+            "weather_rationale": "Ideal sheltered/indoor stop for Moderate Rain Showers weather",
+            "coordinates": {
+              "lat": 12.9535,
+              "lng": 77.5779
+            },
+            "price_inr": 350.0,
+            "duration_minutes": 120,
+            "image_url": "https://images.unsplash.com/photo-1567337710282-00832b415979?w=800&q=80",
+            "is_completed": false
+          }
+        ]
+      },
+      {
+        "day_number": 2,
+        "date": "2026-10-25",
+        "weather_summary": {
+          "date": "2026-10-25",
+          "condition": "Thunderstorm",
+          "temp_min_c": 19.5,
+          "temp_max_c": 25.4,
+          "average_temp_c": 22.4,
+          "precipitation_sum_mm": 13.3,
+          "rain_probability_pct": 80,
+          "wind_speed_kmh": 13.1,
+          "uv_index": 3.6,
+          "forecast_available": true,
+          "suitability_score": 0.6,
+          "suitability_reason": "Rain expected; prefer indoor/sheltered experiences"
+        },
+        "activities": [
+          {
+            "place_id": "EXP-BLR-007",
+            "name": "Cubbon Park Green Canopy Cycling & Artisan Coffee",
+            "start_time": "09:30",
+            "end_time": "11:30",
+            "category": "Nature",
+            "sub_category": "Urban Park",
+            "location": "Bengaluru",
+            "weather_rationale": "Weather-dependent stop; check conditions before visiting",
+            "coordinates": {
+              "lat": 12.9763,
+              "lng": 77.5929
+            },
+            "price_inr": 200.0,
+            "duration_minutes": 120,
+            "image_url": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=800&q=80",
+            "is_completed": false
+          },
+          {
+            "place_id": "EXP-BLR-001",
+            "name": "Lalbagh Botanical Gardens & Glass House Morning Walk",
+            "start_time": "12:00",
+            "end_time": "14:00",
+            "category": "Nature",
+            "sub_category": "Botanical Gardens",
+            "location": "Bengaluru",
+            "weather_rationale": "Weather-dependent stop; check conditions before visiting",
+            "coordinates": {
+              "lat": 12.9507,
+              "lng": 77.5848
+            },
+            "price_inr": 150.0,
+            "duration_minutes": 150,
+            "image_url": "https://images.unsplash.com/photo-1596176530529-78163a4f7af2?w=800&q=80",
+            "is_completed": false
+          },
+          {
+            "place_id": "EXP-BLR-004",
+            "name": "Indiranagar 100ft Road Craft Breweries & Live Jazz",
+            "start_time": "14:30",
+            "end_time": "16:30",
+            "category": "Nightlife",
+            "sub_category": "Craft Breweries",
+            "location": "Bengaluru",
+            "weather_rationale": "Ideal sheltered/indoor stop for Thunderstorm weather",
+            "coordinates": {
+              "lat": 12.9719,
+              "lng": 77.6412
+            },
+            "price_inr": 1100.0,
+            "duration_minutes": 180,
+            "image_url": "https://images.unsplash.com/photo-1572116469696-31de0f17cc34?w=800&q=80",
+            "is_completed": false
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "generation_method": "weather_aware_ml_pipeline",
+      "weather_source": "open-meteo",
+      "days_count": 2,
+      "warnings": []
+    },
+    "created_at": "2026-10-24T14:28:47.632697",
+    "updated_at": "2026-10-24T14:28:47.632703"
+  },
+  {
+    "id": "ITIN-49E8CE38D1",
+    "itinerary_id": "ITIN-49E8CE38D1",
+    "user_id": "test-user-001",
+    "destination_name": "Goa",
+    "destination_coords": {
+      "lat": 15.2993,
+      "lng": 74.124
+    },
+    "start_date": "2026-10-24",
+    "days_count": 2,
+    "pace": "balanced",
+    "traveler_type": "Couple",
+    "interests": [
+      "Culture",
+      "Food"
+    ],
+    "total_cost": 3050.0,
+    "total_duration_minutes": 840,
+    "days": [
+      {
+        "day_number": 1,
+        "date": "2026-10-24",
+        "weather_summary": {
+          "date": "2026-10-24",
+          "condition": "Thunderstorm",
+          "temp_min_c": 24.4,
+          "temp_max_c": 32.7,
+          "average_temp_c": 28.6,
+          "precipitation_sum_mm": 7.4,
+          "rain_probability_pct": 100,
+          "wind_speed_kmh": 10.5,
+          "uv_index": 6.4,
+          "forecast_available": true,
+          "suitability_score": 0.6,
+          "suitability_reason": "Rain expected; prefer indoor/sheltered experiences"
+        },
+        "activities": [
+          {
+            "place_id": "EXP-GOA-002",
+            "name": "Basilica of Bom Jesus & Old Goa Churches",
+            "start_time": "09:30",
+            "end_time": "11:30",
+            "category": "Culture",
+            "sub_category": "Historic Churches",
+            "location": "Goa",
+            "weather_rationale": "Ideal sheltered/indoor stop for Thunderstorm weather",
+            "coordinates": {
+              "lat": 15.5009,
+              "lng": 73.9116
+            },
+            "price_inr": 150.0,
+            "duration_minutes": 150,
+            "image_url": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?w=800&q=80",
+            "is_completed": false
+          },
+          {
+            "place_id": "EXP-GOA-001",
+            "name": "Fontainhas Latin Quarter Heritage Walk",
+            "start_time": "12:00",
+            "end_time": "14:00",
+            "category": "Culture",
+            "sub_category": "Heritage Walk",
+            "location": "Goa",
+            "weather_rationale": "Ideal sheltered/indoor stop for Thunderstorm weather",
+            "coordinates": {
+              "lat": 15.4989,
+              "lng": 73.834
+            },
+            "price_inr": 350.0,
+            "duration_minutes": 120,
+            "image_url": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=800&q=80",
+            "is_completed": false
+          },
+          {
+            "place_id": "EXP-GOA-005",
+            "name": "Authentic Goan Fish Curry Thali Tasting",
+            "start_time": "14:30",
+            "end_time": "16:30",
+            "category": "Food",
+            "sub_category": "Coastal Seafood",
+            "location": "Goa",
+            "weather_rationale": "Ideal sheltered/indoor stop for Thunderstorm weather",
+            "coordinates": {
+              "lat": 15.495,
+              "lng": 73.825
+            },
+            "price_inr": 450.0,
+            "duration_minutes": 90,
+            "image_url": "https://images.unsplash.com/photo-1567337710282-00832b415979?w=800&q=80",
+            "is_completed": false
+          }
+        ]
+      },
+      {
+        "day_number": 2,
+        "date": "2026-10-25",
+        "weather_summary": {
+          "date": "2026-10-25",
+          "condition": "Light Drizzle",
+          "temp_min_c": 23.3,
+          "temp_max_c": 33.5,
+          "average_temp_c": 28.4,
+          "precipitation_sum_mm": 0.2,
+          "rain_probability_pct": 4,
+          "wind_speed_kmh": 13.1,
+          "uv_index": 7.8,
+          "forecast_available": true,
+          "suitability_score": 0.95,
+          "suitability_reason": "Great outdoor sightseeing weather"
+        },
+        "activities": [
+          {
+            "place_id": "EXP-GOA-007",
+            "name": "Sahakari Organic Spice Plantation & Elephant Shower",
+            "start_time": "09:30",
+            "end_time": "11:30",
+            "category": "Nature",
+            "sub_category": "Spice Tour",
+            "location": "Goa",
+            "weather_rationale": "Favorable Light Drizzle conditions for sightseeing",
+            "coordinates": {
+              "lat": 15.405,
+              "lng": 74.015
+            },
+            "price_inr": 600.0,
+            "duration_minutes": 180,
+            "image_url": "https://images.unsplash.com/photo-1596176530529-78163a4f7af2?w=800&q=80",
+            "is_completed": false
+          },
+          {
+            "place_id": "EXP-GOA-008",
+            "name": "Saturday Night Market Arpora Artisan Shopping",
+            "start_time": "12:00",
+            "end_time": "14:00",
+            "category": "Shopping",
+            "sub_category": "Night Market",
+            "location": "Goa",
+            "weather_rationale": "Favorable Light Drizzle conditions for sightseeing",
+            "coordinates": {
+              "lat": 15.572,
+              "lng": 73.766
+            },
+            "price_inr": 300.0,
+            "duration_minutes": 150,
+            "image_url": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=800&q=80",
+            "is_completed": false
+          },
+          {
+            "place_id": "EXP-GOA-004",
+            "name": "Anjuna Beach Watersports & Parasailing Adventure",
+            "start_time": "14:30",
+            "end_time": "16:30",
+            "category": "Adventure",
+            "sub_category": "Watersports",
+            "location": "Goa",
+            "weather_rationale": "Favorable Light Drizzle conditions for sightseeing",
+            "coordinates": {
+              "lat": 15.5807,
+              "lng": 73.7431
+            },
+            "price_inr": 1200.0,
+            "duration_minutes": 150,
+            "image_url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80",
+            "is_completed": false
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "generation_method": "weather_aware_ml_pipeline",
+      "weather_source": "open-meteo",
+      "days_count": 2,
+      "warnings": []
+    },
+    "created_at": "2026-10-24T14:28:45.622433",
+    "updated_at": "2026-10-24T14:28:45.622439"
+  },
+  {
+    "id": "ITIN-09B6012407",
+    "itinerary_id": "ITIN-09B6012407",
+    "user_id": "test-user-001",
+    "destination_name": "Jaipur",
+    "destination_coords": {
+      "lat": 26.9124,
+      "lng": 75.7873
+    },
+    "start_date": "2026-10-24",
+    "days_count": 2,
+    "pace": "balanced",
+    "traveler_type": "Couple",
+    "interests": [
+      "Culture",
+      "Food"
+    ],
+    "total_cost": 1950.0,
+    "total_duration_minutes": 840,
+    "days": [
+      {
+        "day_number": 1,
+        "date": "2026-10-24",
+        "weather_summary": {
+          "date": "2026-10-24",
+          "condition": "Moderate Drizzle",
+          "temp_min_c": 22.0,
+          "temp_max_c": 31.9,
+          "average_temp_c": 26.9,
+          "precipitation_sum_mm": 0.8,
+          "rain_probability_pct": 6,
+          "wind_speed_kmh": 10.0,
+          "uv_index": 5.9,
+          "forecast_available": true,
+          "suitability_score": 0.95,
+          "suitability_reason": "Great outdoor sightseeing weather"
+        },
+        "activities": [
+          {
+            "place_id": "EXP-JPR-004",
+            "name": "City Palace & Jantar Mantar Observatory",
+            "start_time": "09:30",
+            "end_time": "11:30",
+            "category": "Culture",
+            "sub_category": "Museums & Science",
+            "location": "Jaipur",
+            "weather_rationale": "Favorable Moderate Drizzle conditions for sightseeing",
+            "coordinates": {
+              "lat": 26.9258,
+              "lng": 75.8237
+            },
+            "price_inr": 350.0,
+            "duration_minutes": 150,
+            "image_url": "https://images.unsplash.com/photo-1598890777032-bde13fbe34e5?w=800&q=80",
+            "is_completed": false
+          },
+          {
+            "place_id": "EXP-JPR-002",
+            "name": "Hawa Mahal & Old Pink City Cultural Walk",
+            "start_time": "12:00",
+            "end_time": "14:00",
+            "category": "Culture",
+            "sub_category": "Walking Tour",
+            "location": "Jaipur",
+            "weather_rationale": "Favorable Moderate Drizzle conditions for sightseeing",
+            "coordinates": {
+              "lat": 26.9239,
+              "lng": 75.8267
+            },
+            "price_inr": 200.0,
+            "duration_minutes": 120,
+            "image_url": "https://images.unsplash.com/photo-1603290616147-3a9d94380d0d?w=800&q=80",
+            "is_completed": false
+          },
+          {
+            "place_id": "EXP-JPR-001",
+            "name": "Amber Fort & Palace Heritage Tour",
+            "start_time": "14:30",
+            "end_time": "16:30",
+            "category": "Culture",
+            "sub_category": "Heritage & Forts",
+            "location": "Jaipur",
+            "weather_rationale": "Favorable Moderate Drizzle conditions for sightseeing",
+            "coordinates": {
+              "lat": 26.9855,
+              "lng": 75.8513
+            },
+            "price_inr": 500.0,
+            "duration_minutes": 180,
+            "image_url": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=800&q=80",
+            "is_completed": false
+          }
+        ]
+      },
+      {
+        "day_number": 2,
+        "date": "2026-10-25",
+        "weather_summary": {
+          "date": "2026-10-25",
+          "condition": "Mainly Clear",
+          "temp_min_c": 18.6,
+          "temp_max_c": 33.3,
+          "average_temp_c": 25.9,
+          "precipitation_sum_mm": 0.0,
+          "rain_probability_pct": 4,
+          "wind_speed_kmh": 11.9,
+          "uv_index": 5.9,
+          "forecast_available": true,
+          "suitability_score": 0.95,
+          "suitability_reason": "Great outdoor sightseeing weather"
+        },
+        "activities": [
+          {
+            "place_id": "EXP-JPR-006",
+            "name": "Albert Hall Museum Indo-Saracenic Art Gallery",
+            "start_time": "09:30",
+            "end_time": "11:30",
+            "category": "Culture",
+            "sub_category": "Museums & Arts",
+            "location": "Jaipur",
+            "weather_rationale": "Favorable Mainly Clear conditions for sightseeing",
+            "coordinates": {
+              "lat": 26.9116,
+              "lng": 75.8195
+            },
+            "price_inr": 300.0,
+            "duration_minutes": 120,
+            "image_url": "https://images.unsplash.com/photo-1609949279531-cf48d64bed89?w=800&q=80",
+            "is_completed": false
+          },
+          {
+            "place_id": "EXP-JPR-003",
+            "name": "Johari Bazaar Gemstone & Street Food Trail",
+            "start_time": "12:00",
+            "end_time": "14:00",
+            "category": "Food",
+            "sub_category": "Street Food & Markets",
+            "location": "Jaipur",
+            "weather_rationale": "Favorable Mainly Clear conditions for sightseeing",
+            "coordinates": {
+              "lat": 26.9196,
+              "lng": 75.8275
+            },
+            "price_inr": 450.0,
+            "duration_minutes": 150,
+            "image_url": "https://images.unsplash.com/photo-1567337710282-00832b415979?w=800&q=80",
+            "is_completed": false
+          },
+          {
+            "place_id": "EXP-JPR-005",
+            "name": "Nahargarh Fort Sunset & Panoramic City View",
+            "start_time": "14:30",
+            "end_time": "16:30",
+            "category": "Nature",
+            "sub_category": "Viewpoints & Sunset",
+            "location": "Jaipur",
+            "weather_rationale": "Favorable Mainly Clear conditions for sightseeing",
+            "coordinates": {
+              "lat": 26.9372,
+              "lng": 75.8155
+            },
+            "price_inr": 150.0,
+            "duration_minutes": 120,
+            "image_url": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=800&q=80",
+            "is_completed": false
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "generation_method": "weather_aware_ml_pipeline",
+      "weather_source": "open-meteo",
+      "days_count": 2,
+      "warnings": []
+    },
+    "created_at": "2026-10-24T14:28:43.553804",
+    "updated_at": "2026-10-24T14:28:43.553809"
+  },
+  {
+    "id": "ITIN-C58E520A92",
+    "itinerary_id": "ITIN-C58E520A92",
+    "user_id": "test-user-001",
+    "destination_name": "Pune",
+    "destination_coords": {
+      "lat": 18.5204,
+      "lng": 73.8567
+    },
+    "start_date": "2026-10-24",
+    "days_count": 2,
+    "pace": "balanced",
+    "traveler_type": "Couple",
+    "interests": [
+      "Culture",
+      "Food"
+    ],
+    "total_cost": 1950.0,
+    "total_duration_minutes": 900,
+    "days": [
+      {
+        "day_number": 1,
+        "date": "2026-10-24",
+        "weather_summary": {
+          "date": "2026-10-24",
+          "condition": "Moderate Drizzle",
+          "temp_min_c": 23.0,
+          "temp_max_c": 31.5,
+          "average_temp_c": 27.2,
+          "precipitation_sum_mm": 3.0,
+          "rain_probability_pct": 52,
+          "wind_speed_kmh": 11.9,
+          "uv_index": 6.9,
+          "forecast_available": true,
+          "suitability_score": 0.6,
+          "suitability_reason": "Rain expected; prefer indoor/sheltered experiences"
+        },
+        "activities": [
+          {
+            "place_id": "EXP-PUN-001",
+            "name": "Shaniwar Wada Historic Peshwa Fort Exploration",
+            "start_time": "09:30",
+            "end_time": "11:30",
+            "category": "Culture",
+            "sub_category": "Historic Fort",
+            "location": "Pune",
+            "weather_rationale": "Ideal sheltered/indoor stop for Moderate Drizzle weather",
+            "coordinates": {
+              "lat": 18.5196,
+              "lng": 73.8553
+            },
+            "price_inr": 200.0,
+            "duration_minutes": 120,
+            "image_url": "https://images.unsplash.com/photo-1609949279531-cf48d64bed89?w=800&q=80",
+            "is_completed": false
+          },
+          {
+            "place_id": "EXP-PUN-003",
+            "name": "FC Road Student Cafes & Bun Maska Irani Chai Trail",
+            "start_time": "12:00",
+            "end_time": "14:00",
+            "category": "Food",
+            "sub_category": "Street Food & Cafes",
+            "location": "Pune",
+            "weather_rationale": "Ideal sheltered/indoor stop for Moderate Drizzle weather",
+            "coordinates": {
+              "lat": 18.5284,
+              "lng": 73.8415
+            },
+            "price_inr": 250.0,
+            "duration_minutes": 120,
+            "image_url": "https://images.unsplash.com/photo-1567337710282-00832b415979?w=800&q=80",
+            "is_completed": false
+          },
+          {
+            "place_id": "EXP-PUN-002",
+            "name": "Aga Khan Palace & Gandhi Memorial Grounds",
+            "start_time": "14:30",
+            "end_time": "16:30",
+            "category": "Culture",
+            "sub_category": "National Memorial",
+            "location": "Pune",
+            "weather_rationale": "Ideal sheltered/indoor stop for Moderate Drizzle weather",
+            "coordinates": {
+              "lat": 18.5524,
+              "lng": 73.9015
+            },
+            "price_inr": 150.0,
+            "duration_minutes": 120,
+            "image_url": "https://images.unsplash.com/photo-1598890777032-bde13fbe34e5?w=800&q=80",
+            "is_completed": false
+          }
+        ]
+      },
+      {
+        "day_number": 2,
+        "date": "2026-10-25",
+        "weather_summary": {
+          "date": "2026-10-25",
+          "condition": "Overcast",
+          "temp_min_c": 21.5,
+          "temp_max_c": 32.4,
+          "average_temp_c": 26.9,
+          "precipitation_sum_mm": 0.0,
+          "rain_probability_pct": 36,
+          "wind_speed_kmh": 9.8,
+          "uv_index": 7.25,
+          "forecast_available": true,
+          "suitability_score": 0.95,
+          "suitability_reason": "Great outdoor sightseeing weather"
+        },
+        "activities": [
+          {
+            "place_id": "EXP-PUN-005",
+            "name": "Raja Dinkar Kelkar Museum Curiosities Collection",
+            "start_time": "09:30",
+            "end_time": "11:30",
+            "category": "Culture",
+            "sub_category": "Indoor Museum",
+            "location": "Pune",
+            "weather_rationale": "Favorable Overcast conditions for sightseeing",
+            "coordinates": {
+              "lat": 18.5108,
+              "lng": 73.8542
+            },
+            "price_inr": 150.0,
+            "duration_minutes": 120,
+            "image_url": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=800&q=80",
+            "is_completed": false
+          },
+          {
+            "place_id": "EXP-PUN-006",
+            "name": "Viman Nagar Microbrewery & Live Music Hop",
+            "start_time": "12:00",
+            "end_time": "14:00",
+            "category": "Nightlife",
+            "sub_category": "Brewery & Music",
+            "location": "Pune",
+            "weather_rationale": "Favorable Overcast conditions for sightseeing",
+            "coordinates": {
+              "lat": 18.5679,
+              "lng": 73.9143
+            },
+            "price_inr": 900.0,
+            "duration_minutes": 180,
+            "image_url": "https://images.unsplash.com/photo-1572116469696-31de0f17cc34?w=800&q=80",
+            "is_completed": false
+          },
+          {
+            "place_id": "EXP-PUN-004",
+            "name": "Sinhagad Fort Monsoon Mountain Trek",
+            "start_time": "14:30",
+            "end_time": "16:30",
+            "category": "Adventure",
+            "sub_category": "Mountain Trek",
+            "location": "Pune",
+            "weather_rationale": "Favorable Overcast conditions for sightseeing",
+            "coordinates": {
+              "lat": 18.3663,
+              "lng": 73.7558
+            },
+            "price_inr": 300.0,
+            "duration_minutes": 240,
+            "image_url": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=800&q=80",
+            "is_completed": false
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "generation_method": "weather_aware_ml_pipeline",
+      "weather_source": "open-meteo",
+      "days_count": 2,
+      "warnings": []
+    },
+    "created_at": "2026-10-24T14:28:41.482040",
+    "updated_at": "2026-10-24T14:28:41.482050"
+  },
+  {
+    "id": "ITIN-A63D93450E",
+    "itinerary_id": "ITIN-A63D93450E",
+    "user_id": "test-user-001",
+    "destination_name": "Mumbai",
+    "destination_coords": {
+      "lat": 19.076,
+      "lng": 72.8777
+    },
+    "start_date": "2026-10-24",
+    "days_count": 2,
+    "pace": "balanced",
+    "traveler_type": "Couple",
+    "interests": [
+      "Culture",
+      "Food"
+    ],
+    "total_cost": 351051.0,
+    "total_duration_minutes": 1440,
+    "days": [
+      {
+        "day_number": 1,
+        "date": "2026-10-24",
+        "weather_summary": {
+          "date": "2026-10-24",
+          "condition": "Moderate Rain Showers",
+          "temp_min_c": 26.6,
+          "temp_max_c": 33.5,
+          "average_temp_c": 30.1,
+          "precipitation_sum_mm": 3.2,
+          "rain_probability_pct": 86,
+          "wind_speed_kmh": 9.3,
+          "uv_index": 6.85,
+          "forecast_available": true,
+          "suitability_score": 0.6,
+          "suitability_reason": "Rain expected; prefer indoor/sheltered experiences"
+        },
+        "activities": [
+          {
+            "place_id": "MMR-017",
+            "name": "Naupada Street Food Walk",
+            "start_time": "09:30",
+            "end_time": "11:30",
+            "category": "Food",
+            "sub_category": "Street Food",
+            "location": "Thane",
+            "weather_rationale": "Ideal sheltered/indoor stop for Moderate Rain Showers weather",
+            "coordinates": {
+              "lat": 19.195,
+              "lng": 72.97
+            },
+            "price_inr": 300.0,
+            "duration_minutes": 120,
+            "image_url": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?w=800&q=80",
+            "is_completed": false
+          },
+          {
+            "place_id": "MMR-003",
+            "name": "Masunda Lake (Talao Pali)",
+            "start_time": "12:00",
+            "end_time": "14:00",
+            "category": "Nature",
+            "sub_category": "Lake",
+            "location": "Thane",
+            "weather_rationale": "Weather-dependent stop; check conditions before visiting",
+            "coordinates": {
+              "lat": 19.1972,
+              "lng": 72.9714
+            },
+            "price_inr": 250.0,
+            "duration_minutes": 60,
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Masunda_Lake_Thane.jpg/800px-Masunda_Lake_Thane.jpg",
+            "is_completed": false
+          },
+          {
+            "place_id": "MMR-085",
+            "name": "Sindhi Camp Market",
+            "start_time": "14:30",
+            "end_time": "16:30",
+            "category": "Local Experience",
+            "sub_category": "Market & Food",
+            "location": "Ulhasnagar",
+            "weather_rationale": "Weather-dependent stop; check conditions before visiting",
+            "coordinates": {
+              "lat": 19.2215,
+              "lng": 73.1645
+            },
+            "price_inr": 250.0,
+            "duration_minutes": 150,
+            "image_url": "https://images.unsplash.com/photo-1533900298318-6b8da08a523e?w=800&q=80",
+            "is_completed": false
+          }
+        ]
+      },
+      {
+        "day_number": 2,
+        "date": "2026-10-25",
+        "weather_summary": {
+          "date": "2026-10-25",
+          "condition": "Light Drizzle",
+          "temp_min_c": 26.2,
+          "temp_max_c": 33.3,
+          "average_temp_c": 29.8,
+          "precipitation_sum_mm": 0.2,
+          "rain_probability_pct": 14,
+          "wind_speed_kmh": 14.0,
+          "uv_index": 6.7,
+          "forecast_available": true,
+          "suitability_score": 0.95,
+          "suitability_reason": "Great outdoor sightseeing weather"
+        },
+        "activities": [
+          {
+            "place_id": "NAVI-027",
+            "name": "Nerul Balaji Temple",
+            "start_time": "09:30",
+            "end_time": "11:30",
+            "category": "Culture",
+            "sub_category": "Temple",
+            "location": "Nerul",
+            "weather_rationale": "Favorable Light Drizzle conditions for sightseeing",
+            "coordinates": {
+              "lat": 19.0333,
+              "lng": 73.0187
+            },
+            "price_inr": 250.0,
+            "duration_minutes": 90,
+            "image_url": "https://images.unsplash.com/photo-1609766857041-ed402ea8069a?w=800&q=80",
+            "is_completed": false
+          },
+          {
+            "place_id": "EXP-MUJDVHZ0-849",
+            "name": "Shopping at Orion Mall Panvel",
+            "start_time": "12:00",
+            "end_time": "14:00",
+            "category": "Culinary & Food",
+            "sub_category": "Local Exploration",
+            "location": "Mumbai",
+            "weather_rationale": "Favorable Light Drizzle conditions for sightseeing",
+            "coordinates": {
+              "lat": 18.990418,
+              "lng": 73.127419
+            },
+            "price_inr": 1.0,
+            "duration_minutes": 900,
+            "image_url": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?w=800&q=80",
+            "is_completed": false
+          },
+          {
+            "place_id": "EXP-MUJDITPM-566",
+            "name": "Pillai University",
+            "start_time": "14:30",
+            "end_time": "16:30",
+            "category": "Culture & Arts",
+            "sub_category": "Local Exploration",
+            "location": "Mumbai",
+            "weather_rationale": "Favorable Light Drizzle conditions for sightseeing",
+            "coordinates": {
+              "lat": 18.990378,
+              "lng": 73.127511
+            },
+            "price_inr": 350000.0,
+            "duration_minutes": 120,
+            "image_url": "https://images.unsplash.com/photo-1452860606245-08befc0ff44b?w=800&q=80",
+            "is_completed": false
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "generation_method": "weather_aware_ml_pipeline",
+      "weather_source": "open-meteo",
+      "days_count": 2,
+      "warnings": []
+    },
+    "created_at": "2026-10-24T14:28:39.317241",
+    "updated_at": "2026-10-24T14:28:39.317247"
+  },
+  {
+    "id": "ITIN-A6CE364B37",
+    "itinerary_id": "ITIN-A6CE364B37",
+    "user_id": "test-user-001",
+    "destination_name": "Delhi",
+    "destination_coords": {
+      "lat": 28.6139,
+      "lng": 77.209
+    },
+    "start_date": "2026-10-24",
+    "days_count": 2,
+    "pace": "balanced",
+    "traveler_type": "Couple",
+    "interests": [
+      "Culture",
+      "Food"
+    ],
+    "total_cost": 4500.0,
+    "total_duration_minutes": 900,
+    "days": [
+      {
+        "day_number": 1,
+        "date": "2026-10-24",
+        "weather_summary": {
+          "date": "2026-10-24",
+          "condition": "Overcast",
+          "temp_min_c": 20.7,
+          "temp_max_c": 30.0,
+          "average_temp_c": 25.4,
+          "precipitation_sum_mm": 0.0,
+          "rain_probability_pct": 31,
+          "wind_speed_kmh": 12.5,
+          "uv_index": 5.15,
+          "forecast_available": true,
+          "suitability_score": 0.95,
+          "suitability_reason": "Great outdoor sightseeing weather"
+        },
+        "activities": [
+          {
+            "place_id": "DELHI-036",
+            "name": "Chandni Chowk Food Walk",
+            "start_time": "09:30",
+            "end_time": "11:30",
+            "category": "Food",
+            "sub_category": "Street Food Walk",
+            "location": "Delhi",
+            "weather_rationale": "Favorable Overcast conditions for sightseeing",
+            "coordinates": {
+              "lat": 28.6506,
+              "lng": 77.2303
+            },
+            "price_inr": 1000.0,
+            "duration_minutes": 180,
+            "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Street%20Food.jpg",
+            "is_completed": false
+          },
+          {
+            "place_id": "DELHI-067",
+            "name": "Old Delhi Cooking Class - Mughlai Cuisine",
+            "start_time": "12:00",
+            "end_time": "14:00",
+            "category": "Workshop",
+            "sub_category": "Culinary Class",
+            "location": "Delhi",
+            "weather_rationale": "Favorable Overcast conditions for sightseeing",
+            "coordinates": {
+              "lat": 28.652,
+              "lng": 77.229
+            },
+            "price_inr": 2500.0,
+            "duration_minutes": 240,
+            "image_url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80",
+            "is_completed": false
+          },
+          {
+            "place_id": "DELHI-033",
+            "name": "Dilli Haat INA - Handicrafts Bazaar",
+            "start_time": "14:30",
+            "end_time": "16:30",
+            "category": "Shopping",
+            "sub_category": "Handicrafts Market",
+            "location": "Delhi",
+            "weather_rationale": "Favorable Overcast conditions for sightseeing",
+            "coordinates": {
+              "lat": 28.5717,
+              "lng": 77.2103
+            },
+            "price_inr": 30.0,
+            "duration_minutes": 150,
+            "image_url": "https://images.unsplash.com/photo-1533900298318-6b8da08a523e?w=800&q=80",
+            "is_completed": false
+          }
+        ]
+      },
+      {
+        "day_number": 2,
+        "date": "2026-10-25",
+        "weather_summary": {
+          "date": "2026-10-25",
+          "condition": "Mainly Clear",
+          "temp_min_c": 20.1,
+          "temp_max_c": 30.0,
+          "average_temp_c": 25.1,
+          "precipitation_sum_mm": 0.0,
+          "rain_probability_pct": 2,
+          "wind_speed_kmh": 8.3,
+          "uv_index": 5.05,
+          "forecast_available": true,
+          "suitability_score": 0.95,
+          "suitability_reason": "Great outdoor sightseeing weather"
+        },
+        "activities": [
+          {
+            "place_id": "DELHI-023",
+            "name": "Crafts Museum & Hastkala Academy",
+            "start_time": "09:30",
+            "end_time": "11:30",
+            "category": "Museum",
+            "sub_category": "Handicrafts",
+            "location": "Delhi",
+            "weather_rationale": "Favorable Mainly Clear conditions for sightseeing",
+            "coordinates": {
+              "lat": 28.6142,
+              "lng": 77.2431
+            },
+            "price_inr": 20.0,
+            "duration_minutes": 120,
+            "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Red%20Fort%20Delhi.jpg",
+            "is_completed": false
+          },
+          {
+            "place_id": "DELHI-040",
+            "name": "Jama Masjid Kebab & Street Food Trail",
+            "start_time": "12:00",
+            "end_time": "14:00",
+            "category": "Food",
+            "sub_category": "Street Food Walk",
+            "location": "Delhi",
+            "weather_rationale": "Favorable Mainly Clear conditions for sightseeing",
+            "coordinates": {
+              "lat": 28.651,
+              "lng": 77.2325
+            },
+            "price_inr": 700.0,
+            "duration_minutes": 120,
+            "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Street%20Food.jpg",
+            "is_completed": false
+          },
+          {
+            "place_id": "DELHI-058",
+            "name": "ISKCON Temple Delhi",
+            "start_time": "14:30",
+            "end_time": "16:30",
+            "category": "Religious",
+            "sub_category": "Krishna Temple",
+            "location": "Delhi",
+            "weather_rationale": "Favorable Mainly Clear conditions for sightseeing",
+            "coordinates": {
+              "lat": 28.5518,
+              "lng": 77.2596
+            },
+            "price_inr": 250.0,
+            "duration_minutes": 90,
+            "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Khandoba%20temple%20Pune.jpg",
+            "is_completed": false
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "generation_method": "weather_aware_ml_pipeline",
+      "weather_source": "open-meteo",
+      "days_count": 2,
+      "warnings": []
+    },
+    "created_at": "2026-10-24T14:27:58.121239",
+    "updated_at": "2026-10-24T14:27:58.121244"
+  },
+  {
+    "id": "ITIN-1B0A66624C",
+    "itinerary_id": "ITIN-1B0A66624C",
+    "user_id": "test-user-001",
+    "destination_name": "Hyderabad",
+    "destination_coords": {
+      "lat": 17.385,
+      "lng": 78.4867
+    },
+    "start_date": "2026-10-24",
+    "days_count": 2,
+    "pace": "balanced",
+    "traveler_type": "Couple",
+    "interests": [
+      "Culture",
+      "Food"
+    ],
+    "total_cost": 2750.0,
+    "total_duration_minutes": 930,
+    "days": [
+      {
+        "day_number": 1,
+        "date": "2026-10-24",
+        "weather_summary": {
+          "date": "2026-10-24",
+          "condition": "Overcast",
+          "temp_min_c": 25.0,
+          "temp_max_c": 31.1,
+          "average_temp_c": 28.1,
+          "precipitation_sum_mm": 0.0,
+          "rain_probability_pct": 0,
+          "wind_speed_kmh": 11.1,
+          "uv_index": 7.75,
+          "forecast_available": true,
+          "suitability_score": 0.95,
+          "suitability_reason": "Great outdoor sightseeing weather"
+        },
+        "activities": [
+          {
+            "place_id": "EXP-HYD-004",
+            "name": "Salar Jung Museum World Antique Treasures",
+            "start_time": "09:30",
+            "end_time": "11:30",
+            "category": "Culture",
+            "sub_category": "Historic Museum",
+            "location": "Hyderabad",
+            "weather_rationale": "Favorable Overcast conditions for sightseeing",
+            "coordinates": {
+              "lat": 17.3713,
+              "lng": 78.4804
+            },
+            "price_inr": 200.0,
+            "duration_minutes": 180,
+            "image_url": "https://images.unsplash.com/photo-1609949279531-cf48d64bed89?w=800&q=80",
+            "is_completed": false
+          },
+          {
+            "place_id": "EXP-HYD-003",
+            "name": "Authentic Hyderabadi Dum Biryani & Irani Chai Tasting",
+            "start_time": "12:00",
+            "end_time": "14:00",
+            "category": "Food",
+            "sub_category": "Royal Culinary",
+            "location": "Hyderabad",
+            "weather_rationale": "Favorable Overcast conditions for sightseeing",
+            "coordinates": {
+              "lat": 17.365,
+              "lng": 78.478
+            },
+            "price_inr": 450.0,
+            "duration_minutes": 120,
+            "image_url": "https://images.unsplash.com/photo-1567337710282-00832b415979?w=800&q=80",
+            "is_completed": false
+          },
+          {
+            "place_id": "EXP-HYD-001",
+            "name": "Charminar & Laad Bazaar Pearl & Lacquer Bangle Walk",
+            "start_time": "14:30",
+            "end_time": "16:30",
+            "category": "Culture",
+            "sub_category": "Monument & Bazaar",
+            "location": "Hyderabad",
+            "weather_rationale": "Favorable Overcast conditions for sightseeing",
+            "coordinates": {
+              "lat": 17.3616,
+              "lng": 78.4747
+            },
+            "price_inr": 250.0,
+            "duration_minutes": 150,
+            "image_url": "https://images.unsplash.com/photo-1598890777032-bde13fbe34e5?w=800&q=80",
+            "is_completed": false
+          }
+        ]
+      },
+      {
+        "day_number": 2,
+        "date": "2026-10-25",
+        "weather_summary": {
+          "date": "2026-10-25",
+          "condition": "Overcast",
+          "temp_min_c": 23.5,
+          "temp_max_c": 32.1,
+          "average_temp_c": 27.8,
+          "precipitation_sum_mm": 0.0,
+          "rain_probability_pct": 0,
+          "wind_speed_kmh": 14.5,
+          "uv_index": 7.7,
+          "forecast_available": true,
+          "suitability_score": 0.95,
+          "suitability_reason": "Great outdoor sightseeing weather"
+        },
+        "activities": [
+          {
+            "place_id": "EXP-HYD-002",
+            "name": "Golconda Fort Acoustic Marvels & Sunset Trek",
+            "start_time": "09:30",
+            "end_time": "11:30",
+            "category": "Adventure",
+            "sub_category": "Fort Trek",
+            "location": "Hyderabad",
+            "weather_rationale": "Favorable Overcast conditions for sightseeing",
+            "coordinates": {
+              "lat": 17.3833,
+              "lng": 78.4011
+            },
+            "price_inr": 300.0,
+            "duration_minutes": 180,
+            "image_url": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=800&q=80",
+            "is_completed": false
+          },
+          {
+            "place_id": "EXP-HYD-008",
+            "name": "Qutb Shahi Tombs Heritage Garden Promenade",
+            "start_time": "12:00",
+            "end_time": "14:00",
+            "category": "Nature",
+            "sub_category": "Heritage Gardens",
+            "location": "Hyderabad",
+            "weather_rationale": "Favorable Overcast conditions for sightseeing",
+            "coordinates": {
+              "lat": 17.3892,
+              "lng": 78.3957
+            },
+            "price_inr": 150.0,
+            "duration_minutes": 120,
+            "image_url": "https://images.unsplash.com/photo-1596176530529-78163a4f7af2?w=800&q=80",
+            "is_completed": false
+          },
+          {
+            "place_id": "EXP-HYD-006",
+            "name": "Jubilee Hills Rooftop Lounges & Nightlife Hop",
+            "start_time": "14:30",
+            "end_time": "16:30",
+            "category": "Nightlife",
+            "sub_category": "Upscale Lounges",
+            "location": "Hyderabad",
+            "weather_rationale": "Favorable Overcast conditions for sightseeing",
+            "coordinates": {
+              "lat": 17.4319,
+              "lng": 78.4073
+            },
+            "price_inr": 1400.0,
+            "duration_minutes": 180,
+            "image_url": "https://images.unsplash.com/photo-1572116469696-31de0f17cc34?w=800&q=80",
+            "is_completed": false
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "generation_method": "weather_aware_ml_pipeline",
+      "weather_source": "open-meteo",
+      "days_count": 2,
+      "warnings": []
+    },
+    "created_at": "2026-10-24T14:27:55.317371",
+    "updated_at": "2026-10-24T14:27:55.317376"
+  },
+  {
+    "id": "ITIN-201549691B",
+    "itinerary_id": "ITIN-201549691B",
+    "user_id": "test-user-001",
+    "destination_name": "Bengaluru",
+    "destination_coords": {
+      "lat": 12.9716,
+      "lng": 77.5946
+    },
+    "start_date": "2026-10-24",
+    "days_count": 2,
+    "pace": "balanced",
+    "traveler_type": "Couple",
+    "interests": [
+      "Culture",
+      "Food"
+    ],
+    "total_cost": 2450.0,
+    "total_duration_minutes": 870,
+    "days": [
+      {
+        "day_number": 1,
+        "date": "2026-10-24",
+        "weather_summary": {
+          "date": "2026-10-24",
+          "condition": "Moderate Rain Showers",
+          "temp_min_c": 19.6,
+          "temp_max_c": 25.3,
+          "average_temp_c": 22.5,
+          "precipitation_sum_mm": 20.3,
+          "rain_probability_pct": 90,
+          "wind_speed_kmh": 11.3,
+          "uv_index": 7.85,
+          "forecast_available": true,
+          "suitability_score": 0.6,
+          "suitability_reason": "Rain expected; prefer indoor/sheltered experiences"
+        },
+        "activities": [
+          {
+            "place_id": "EXP-BLR-005",
+            "name": "Visvesvaraya Industrial & Science Museum Experience",
+            "start_time": "09:30",
+            "end_time": "11:30",
+            "category": "Culture",
+            "sub_category": "Science & Innovation",
+            "location": "Bengaluru",
+            "weather_rationale": "Ideal sheltered/indoor stop for Moderate Rain Showers weather",
+            "coordinates": {
+              "lat": 12.9754,
+              "lng": 77.596
+            },
+            "price_inr": 200.0,
+            "duration_minutes": 150,
+            "image_url": "https://images.unsplash.com/photo-1609949279531-cf48d64bed89?w=800&q=80",
+            "is_completed": false
+          },
+          {
+            "place_id": "EXP-BLR-003",
+            "name": "Bangalore Palace Tudor Royal Architecture Tour",
+            "start_time": "12:00",
+            "end_time": "14:00",
+            "category": "Culture",
+            "sub_category": "Royal Palace",
+            "location": "Bengaluru",
+            "weather_rationale": "Ideal sheltered/indoor stop for Moderate Rain Showers weather",
+            "coordinates": {
+              "lat": 12.9988,
+              "lng": 77.5921
+            },
+            "price_inr": 450.0,
+            "duration_minutes": 150,
+            "image_url": "https://images.unsplash.com/photo-1598890777032-bde13fbe34e5?w=800&q=80",
+            "is_completed": false
+          },
+          {
+            "place_id": "EXP-BLR-002",
+            "name": "VV Puram Food Street Culinary Walk",
+            "start_time": "14:30",
+            "end_time": "16:30",
+            "category": "Food",
+            "sub_category": "Street Food",
+            "location": "Bengaluru",
+            "weather_rationale": "Ideal sheltered/indoor stop for Moderate Rain Showers weather",
+            "coordinates": {
+              "lat": 12.9535,
+              "lng": 77.5779
+            },
+            "price_inr": 350.0,
+            "duration_minutes": 120,
+            "image_url": "https://images.unsplash.com/photo-1567337710282-00832b415979?w=800&q=80",
+            "is_completed": false
+          }
+        ]
+      },
+      {
+        "day_number": 2,
+        "date": "2026-10-25",
+        "weather_summary": {
+          "date": "2026-10-25",
+          "condition": "Thunderstorm",
+          "temp_min_c": 19.5,
+          "temp_max_c": 25.4,
+          "average_temp_c": 22.4,
+          "precipitation_sum_mm": 13.3,
+          "rain_probability_pct": 80,
+          "wind_speed_kmh": 13.1,
+          "uv_index": 3.6,
+          "forecast_available": true,
+          "suitability_score": 0.6,
+          "suitability_reason": "Rain expected; prefer indoor/sheltered experiences"
+        },
+        "activities": [
+          {
+            "place_id": "EXP-BLR-007",
+            "name": "Cubbon Park Green Canopy Cycling & Artisan Coffee",
+            "start_time": "09:30",
+            "end_time": "11:30",
+            "category": "Nature",
+            "sub_category": "Urban Park",
+            "location": "Bengaluru",
+            "weather_rationale": "Weather-dependent stop; check conditions before visiting",
+            "coordinates": {
+              "lat": 12.9763,
+              "lng": 77.5929
+            },
+            "price_inr": 200.0,
+            "duration_minutes": 120,
+            "image_url": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=800&q=80",
+            "is_completed": false
+          },
+          {
+            "place_id": "EXP-BLR-001",
+            "name": "Lalbagh Botanical Gardens & Glass House Morning Walk",
+            "start_time": "12:00",
+            "end_time": "14:00",
+            "category": "Nature",
+            "sub_category": "Botanical Gardens",
+            "location": "Bengaluru",
+            "weather_rationale": "Weather-dependent stop; check conditions before visiting",
+            "coordinates": {
+              "lat": 12.9507,
+              "lng": 77.5848
+            },
+            "price_inr": 150.0,
+            "duration_minutes": 150,
+            "image_url": "https://images.unsplash.com/photo-1596176530529-78163a4f7af2?w=800&q=80",
+            "is_completed": false
+          },
+          {
+            "place_id": "EXP-BLR-004",
+            "name": "Indiranagar 100ft Road Craft Breweries & Live Jazz",
+            "start_time": "14:30",
+            "end_time": "16:30",
+            "category": "Nightlife",
+            "sub_category": "Craft Breweries",
+            "location": "Bengaluru",
+            "weather_rationale": "Ideal sheltered/indoor stop for Thunderstorm weather",
+            "coordinates": {
+              "lat": 12.9719,
+              "lng": 77.6412
+            },
+            "price_inr": 1100.0,
+            "duration_minutes": 180,
+            "image_url": "https://images.unsplash.com/photo-1572116469696-31de0f17cc34?w=800&q=80",
+            "is_completed": false
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "generation_method": "weather_aware_ml_pipeline",
+      "weather_source": "open-meteo",
+      "days_count": 2,
+      "warnings": []
+    },
+    "created_at": "2026-10-24T14:27:53.389916",
+    "updated_at": "2026-10-24T14:27:53.389922"
+  },
+  {
+    "id": "ITIN-63B411FA02",
+    "itinerary_id": "ITIN-63B411FA02",
+    "user_id": "test-user-001",
+    "destination_name": "Goa",
+    "destination_coords": {
+      "lat": 15.2993,
+      "lng": 74.124
+    },
+    "start_date": "2026-10-24",
+    "days_count": 2,
+    "pace": "balanced",
+    "traveler_type": "Couple",
+    "interests": [
+      "Culture",
+      "Food"
+    ],
+    "total_cost": 3050.0,
+    "total_duration_minutes": 840,
+    "days": [
+      {
+        "day_number": 1,
+        "date": "2026-10-24",
+        "weather_summary": {
+          "date": "2026-10-24",
+          "condition": "Thunderstorm",
+          "temp_min_c": 24.4,
+          "temp_max_c": 32.7,
+          "average_temp_c": 28.6,
+          "precipitation_sum_mm": 7.4,
+          "rain_probability_pct": 100,
+          "wind_speed_kmh": 10.5,
+          "uv_index": 6.4,
+          "forecast_available": true,
+          "suitability_score": 0.6,
+          "suitability_reason": "Rain expected; prefer indoor/sheltered experiences"
+        },
+        "activities": [
+          {
+            "place_id": "EXP-GOA-002",
+            "name": "Basilica of Bom Jesus & Old Goa Churches",
+            "start_time": "09:30",
+            "end_time": "11:30",
+            "category": "Culture",
+            "sub_category": "Historic Churches",
+            "location": "Goa",
+            "weather_rationale": "Ideal sheltered/indoor stop for Thunderstorm weather",
+            "coordinates": {
+              "lat": 15.5009,
+              "lng": 73.9116
+            },
+            "price_inr": 150.0,
+            "duration_minutes": 150,
+            "image_url": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?w=800&q=80",
+            "is_completed": false
+          },
+          {
+            "place_id": "EXP-GOA-001",
+            "name": "Fontainhas Latin Quarter Heritage Walk",
+            "start_time": "12:00",
+            "end_time": "14:00",
+            "category": "Culture",
+            "sub_category": "Heritage Walk",
+            "location": "Goa",
+            "weather_rationale": "Ideal sheltered/indoor stop for Thunderstorm weather",
+            "coordinates": {
+              "lat": 15.4989,
+              "lng": 73.834
+            },
+            "price_inr": 350.0,
+            "duration_minutes": 120,
+            "image_url": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=800&q=80",
+            "is_completed": false
+          },
+          {
+            "place_id": "EXP-GOA-005",
+            "name": "Authentic Goan Fish Curry Thali Tasting",
+            "start_time": "14:30",
+            "end_time": "16:30",
+            "category": "Food",
+            "sub_category": "Coastal Seafood",
+            "location": "Goa",
+            "weather_rationale": "Ideal sheltered/indoor stop for Thunderstorm weather",
+            "coordinates": {
+              "lat": 15.495,
+              "lng": 73.825
+            },
+            "price_inr": 450.0,
+            "duration_minutes": 90,
+            "image_url": "https://images.unsplash.com/photo-1567337710282-00832b415979?w=800&q=80",
+            "is_completed": false
+          }
+        ]
+      },
+      {
+        "day_number": 2,
+        "date": "2026-10-25",
+        "weather_summary": {
+          "date": "2026-10-25",
+          "condition": "Light Drizzle",
+          "temp_min_c": 23.3,
+          "temp_max_c": 33.5,
+          "average_temp_c": 28.4,
+          "precipitation_sum_mm": 0.2,
+          "rain_probability_pct": 4,
+          "wind_speed_kmh": 13.1,
+          "uv_index": 7.8,
+          "forecast_available": true,
+          "suitability_score": 0.95,
+          "suitability_reason": "Great outdoor sightseeing weather"
+        },
+        "activities": [
+          {
+            "place_id": "EXP-GOA-007",
+            "name": "Sahakari Organic Spice Plantation & Elephant Shower",
+            "start_time": "09:30",
+            "end_time": "11:30",
+            "category": "Nature",
+            "sub_category": "Spice Tour",
+            "location": "Goa",
+            "weather_rationale": "Favorable Light Drizzle conditions for sightseeing",
+            "coordinates": {
+              "lat": 15.405,
+              "lng": 74.015
+            },
+            "price_inr": 600.0,
+            "duration_minutes": 180,
+            "image_url": "https://images.unsplash.com/photo-1596176530529-78163a4f7af2?w=800&q=80",
+            "is_completed": false
+          },
+          {
+            "place_id": "EXP-GOA-008",
+            "name": "Saturday Night Market Arpora Artisan Shopping",
+            "start_time": "12:00",
+            "end_time": "14:00",
+            "category": "Shopping",
+            "sub_category": "Night Market",
+            "location": "Goa",
+            "weather_rationale": "Favorable Light Drizzle conditions for sightseeing",
+            "coordinates": {
+              "lat": 15.572,
+              "lng": 73.766
+            },
+            "price_inr": 300.0,
+            "duration_minutes": 150,
+            "image_url": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=800&q=80",
+            "is_completed": false
+          },
+          {
+            "place_id": "EXP-GOA-004",
+            "name": "Anjuna Beach Watersports & Parasailing Adventure",
+            "start_time": "14:30",
+            "end_time": "16:30",
+            "category": "Adventure",
+            "sub_category": "Watersports",
+            "location": "Goa",
+            "weather_rationale": "Favorable Light Drizzle conditions for sightseeing",
+            "coordinates": {
+              "lat": 15.5807,
+              "lng": 73.7431
+            },
+            "price_inr": 1200.0,
+            "duration_minutes": 150,
+            "image_url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80",
+            "is_completed": false
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "generation_method": "weather_aware_ml_pipeline",
+      "weather_source": "open-meteo",
+      "days_count": 2,
+      "warnings": []
+    },
+    "created_at": "2026-10-24T14:27:51.422537",
+    "updated_at": "2026-10-24T14:27:51.422544"
+  },
+  {
+    "id": "ITIN-9BEE6D5E58",
+    "itinerary_id": "ITIN-9BEE6D5E58",
+    "user_id": "test-user-001",
+    "destination_name": "Jaipur",
+    "destination_coords": {
+      "lat": 26.9124,
+      "lng": 75.7873
+    },
+    "start_date": "2026-10-24",
+    "days_count": 2,
+    "pace": "balanced",
+    "traveler_type": "Couple",
+    "interests": [
+      "Culture",
+      "Food"
+    ],
+    "total_cost": 1950.0,
+    "total_duration_minutes": 840,
+    "days": [
+      {
+        "day_number": 1,
+        "date": "2026-10-24",
+        "weather_summary": {
+          "date": "2026-10-24",
+          "condition": "Moderate Drizzle",
+          "temp_min_c": 22.0,
+          "temp_max_c": 31.9,
+          "average_temp_c": 26.9,
+          "precipitation_sum_mm": 0.8,
+          "rain_probability_pct": 6,
+          "wind_speed_kmh": 10.0,
+          "uv_index": 5.9,
+          "forecast_available": true,
+          "suitability_score": 0.95,
+          "suitability_reason": "Great outdoor sightseeing weather"
+        },
+        "activities": [
+          {
+            "place_id": "EXP-JPR-004",
+            "name": "City Palace & Jantar Mantar Observatory",
+            "start_time": "09:30",
+            "end_time": "11:30",
+            "category": "Culture",
+            "sub_category": "Museums & Science",
+            "location": "Jaipur",
+            "weather_rationale": "Favorable Moderate Drizzle conditions for sightseeing",
+            "coordinates": {
+              "lat": 26.9258,
+              "lng": 75.8237
+            },
+            "price_inr": 350.0,
+            "duration_minutes": 150,
+            "image_url": "https://images.unsplash.com/photo-1598890777032-bde13fbe34e5?w=800&q=80",
+            "is_completed": false
+          },
+          {
+            "place_id": "EXP-JPR-002",
+            "name": "Hawa Mahal & Old Pink City Cultural Walk",
+            "start_time": "12:00",
+            "end_time": "14:00",
+            "category": "Culture",
+            "sub_category": "Walking Tour",
+            "location": "Jaipur",
+            "weather_rationale": "Favorable Moderate Drizzle conditions for sightseeing",
+            "coordinates": {
+              "lat": 26.9239,
+              "lng": 75.8267
+            },
+            "price_inr": 200.0,
+            "duration_minutes": 120,
+            "image_url": "https://images.unsplash.com/photo-1603290616147-3a9d94380d0d?w=800&q=80",
+            "is_completed": false
+          },
+          {
+            "place_id": "EXP-JPR-001",
+            "name": "Amber Fort & Palace Heritage Tour",
+            "start_time": "14:30",
+            "end_time": "16:30",
+            "category": "Culture",
+            "sub_category": "Heritage & Forts",
+            "location": "Jaipur",
+            "weather_rationale": "Favorable Moderate Drizzle conditions for sightseeing",
+            "coordinates": {
+              "lat": 26.9855,
+              "lng": 75.8513
+            },
+            "price_inr": 500.0,
+            "duration_minutes": 180,
+            "image_url": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=800&q=80",
+            "is_completed": false
+          }
+        ]
+      },
+      {
+        "day_number": 2,
+        "date": "2026-10-25",
+        "weather_summary": {
+          "date": "2026-10-25",
+          "condition": "Mainly Clear",
+          "temp_min_c": 18.6,
+          "temp_max_c": 33.3,
+          "average_temp_c": 25.9,
+          "precipitation_sum_mm": 0.0,
+          "rain_probability_pct": 4,
+          "wind_speed_kmh": 11.9,
+          "uv_index": 5.9,
+          "forecast_available": true,
+          "suitability_score": 0.95,
+          "suitability_reason": "Great outdoor sightseeing weather"
+        },
+        "activities": [
+          {
+            "place_id": "EXP-JPR-006",
+            "name": "Albert Hall Museum Indo-Saracenic Art Gallery",
+            "start_time": "09:30",
+            "end_time": "11:30",
+            "category": "Culture",
+            "sub_category": "Museums & Arts",
+            "location": "Jaipur",
+            "weather_rationale": "Favorable Mainly Clear conditions for sightseeing",
+            "coordinates": {
+              "lat": 26.9116,
+              "lng": 75.8195
+            },
+            "price_inr": 300.0,
+            "duration_minutes": 120,
+            "image_url": "https://images.unsplash.com/photo-1609949279531-cf48d64bed89?w=800&q=80",
+            "is_completed": false
+          },
+          {
+            "place_id": "EXP-JPR-003",
+            "name": "Johari Bazaar Gemstone & Street Food Trail",
+            "start_time": "12:00",
+            "end_time": "14:00",
+            "category": "Food",
+            "sub_category": "Street Food & Markets",
+            "location": "Jaipur",
+            "weather_rationale": "Favorable Mainly Clear conditions for sightseeing",
+            "coordinates": {
+              "lat": 26.9196,
+              "lng": 75.8275
+            },
+            "price_inr": 450.0,
+            "duration_minutes": 150,
+            "image_url": "https://images.unsplash.com/photo-1567337710282-00832b415979?w=800&q=80",
+            "is_completed": false
+          },
+          {
+            "place_id": "EXP-JPR-005",
+            "name": "Nahargarh Fort Sunset & Panoramic City View",
+            "start_time": "14:30",
+            "end_time": "16:30",
+            "category": "Nature",
+            "sub_category": "Viewpoints & Sunset",
+            "location": "Jaipur",
+            "weather_rationale": "Favorable Mainly Clear conditions for sightseeing",
+            "coordinates": {
+              "lat": 26.9372,
+              "lng": 75.8155
+            },
+            "price_inr": 150.0,
+            "duration_minutes": 120,
+            "image_url": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=800&q=80",
+            "is_completed": false
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "generation_method": "weather_aware_ml_pipeline",
+      "weather_source": "open-meteo",
+      "days_count": 2,
+      "warnings": []
+    },
+    "created_at": "2026-10-24T14:27:49.477181",
+    "updated_at": "2026-10-24T14:27:49.477186"
+  },
+  {
+    "id": "ITIN-B0DBFF03B9",
+    "itinerary_id": "ITIN-B0DBFF03B9",
+    "user_id": "test-user-001",
+    "destination_name": "Pune",
+    "destination_coords": {
+      "lat": 18.5204,
+      "lng": 73.8567
+    },
+    "start_date": "2026-10-24",
+    "days_count": 2,
+    "pace": "balanced",
+    "traveler_type": "Couple",
+    "interests": [
+      "Culture",
+      "Food"
+    ],
+    "total_cost": 1950.0,
+    "total_duration_minutes": 900,
+    "days": [
+      {
+        "day_number": 1,
+        "date": "2026-10-24",
+        "weather_summary": {
+          "date": "2026-10-24",
+          "condition": "Moderate Drizzle",
+          "temp_min_c": 23.0,
+          "temp_max_c": 31.5,
+          "average_temp_c": 27.2,
+          "precipitation_sum_mm": 3.0,
+          "rain_probability_pct": 52,
+          "wind_speed_kmh": 11.9,
+          "uv_index": 6.9,
+          "forecast_available": true,
+          "suitability_score": 0.6,
+          "suitability_reason": "Rain expected; prefer indoor/sheltered experiences"
+        },
+        "activities": [
+          {
+            "place_id": "EXP-PUN-001",
+            "name": "Shaniwar Wada Historic Peshwa Fort Exploration",
+            "start_time": "09:30",
+            "end_time": "11:30",
+            "category": "Culture",
+            "sub_category": "Historic Fort",
+            "location": "Pune",
+            "weather_rationale": "Ideal sheltered/indoor stop for Moderate Drizzle weather",
+            "coordinates": {
+              "lat": 18.5196,
+              "lng": 73.8553
+            },
+            "price_inr": 200.0,
+            "duration_minutes": 120,
+            "image_url": "https://images.unsplash.com/photo-1609949279531-cf48d64bed89?w=800&q=80",
+            "is_completed": false
+          },
+          {
+            "place_id": "EXP-PUN-003",
+            "name": "FC Road Student Cafes & Bun Maska Irani Chai Trail",
+            "start_time": "12:00",
+            "end_time": "14:00",
+            "category": "Food",
+            "sub_category": "Street Food & Cafes",
+            "location": "Pune",
+            "weather_rationale": "Ideal sheltered/indoor stop for Moderate Drizzle weather",
+            "coordinates": {
+              "lat": 18.5284,
+              "lng": 73.8415
+            },
+            "price_inr": 250.0,
+            "duration_minutes": 120,
+            "image_url": "https://images.unsplash.com/photo-1567337710282-00832b415979?w=800&q=80",
+            "is_completed": false
+          },
+          {
+            "place_id": "EXP-PUN-002",
+            "name": "Aga Khan Palace & Gandhi Memorial Grounds",
+            "start_time": "14:30",
+            "end_time": "16:30",
+            "category": "Culture",
+            "sub_category": "National Memorial",
+            "location": "Pune",
+            "weather_rationale": "Ideal sheltered/indoor stop for Moderate Drizzle weather",
+            "coordinates": {
+              "lat": 18.5524,
+              "lng": 73.9015
+            },
+            "price_inr": 150.0,
+            "duration_minutes": 120,
+            "image_url": "https://images.unsplash.com/photo-1598890777032-bde13fbe34e5?w=800&q=80",
+            "is_completed": false
+          }
+        ]
+      },
+      {
+        "day_number": 2,
+        "date": "2026-10-25",
+        "weather_summary": {
+          "date": "2026-10-25",
+          "condition": "Overcast",
+          "temp_min_c": 21.5,
+          "temp_max_c": 32.4,
+          "average_temp_c": 26.9,
+          "precipitation_sum_mm": 0.0,
+          "rain_probability_pct": 36,
+          "wind_speed_kmh": 9.8,
+          "uv_index": 7.25,
+          "forecast_available": true,
+          "suitability_score": 0.95,
+          "suitability_reason": "Great outdoor sightseeing weather"
+        },
+        "activities": [
+          {
+            "place_id": "EXP-PUN-005",
+            "name": "Raja Dinkar Kelkar Museum Curiosities Collection",
+            "start_time": "09:30",
+            "end_time": "11:30",
+            "category": "Culture",
+            "sub_category": "Indoor Museum",
+            "location": "Pune",
+            "weather_rationale": "Favorable Overcast conditions for sightseeing",
+            "coordinates": {
+              "lat": 18.5108,
+              "lng": 73.8542
+            },
+            "price_inr": 150.0,
+            "duration_minutes": 120,
+            "image_url": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=800&q=80",
+            "is_completed": false
+          },
+          {
+            "place_id": "EXP-PUN-006",
+            "name": "Viman Nagar Microbrewery & Live Music Hop",
+            "start_time": "12:00",
+            "end_time": "14:00",
+            "category": "Nightlife",
+            "sub_category": "Brewery & Music",
+            "location": "Pune",
+            "weather_rationale": "Favorable Overcast conditions for sightseeing",
+            "coordinates": {
+              "lat": 18.5679,
+              "lng": 73.9143
+            },
+            "price_inr": 900.0,
+            "duration_minutes": 180,
+            "image_url": "https://images.unsplash.com/photo-1572116469696-31de0f17cc34?w=800&q=80",
+            "is_completed": false
+          },
+          {
+            "place_id": "EXP-PUN-004",
+            "name": "Sinhagad Fort Monsoon Mountain Trek",
+            "start_time": "14:30",
+            "end_time": "16:30",
+            "category": "Adventure",
+            "sub_category": "Mountain Trek",
+            "location": "Pune",
+            "weather_rationale": "Favorable Overcast conditions for sightseeing",
+            "coordinates": {
+              "lat": 18.3663,
+              "lng": 73.7558
+            },
+            "price_inr": 300.0,
+            "duration_minutes": 240,
+            "image_url": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=800&q=80",
+            "is_completed": false
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "generation_method": "weather_aware_ml_pipeline",
+      "weather_source": "open-meteo",
+      "days_count": 2,
+      "warnings": []
+    },
+    "created_at": "2026-10-24T14:27:47.464471",
+    "updated_at": "2026-10-24T14:27:47.464475"
+  },
+  {
+    "id": "ITIN-0B412C5F89",
+    "itinerary_id": "ITIN-0B412C5F89",
+    "user_id": "test-user-001",
+    "destination_name": "Mumbai",
+    "destination_coords": {
+      "lat": 19.076,
+      "lng": 72.8777
+    },
+    "start_date": "2026-10-24",
+    "days_count": 2,
+    "pace": "balanced",
+    "traveler_type": "Couple",
+    "interests": [
+      "Culture",
+      "Food"
+    ],
+    "total_cost": 351051.0,
+    "total_duration_minutes": 1440,
+    "days": [
+      {
+        "day_number": 1,
+        "date": "2026-10-24",
+        "weather_summary": {
+          "date": "2026-10-24",
+          "condition": "Moderate Rain Showers",
+          "temp_min_c": 26.6,
+          "temp_max_c": 33.5,
+          "average_temp_c": 30.1,
+          "precipitation_sum_mm": 3.2,
+          "rain_probability_pct": 86,
+          "wind_speed_kmh": 9.3,
+          "uv_index": 6.85,
+          "forecast_available": true,
+          "suitability_score": 0.6,
+          "suitability_reason": "Rain expected; prefer indoor/sheltered experiences"
+        },
+        "activities": [
+          {
+            "place_id": "MMR-017",
+            "name": "Naupada Street Food Walk",
+            "start_time": "09:30",
+            "end_time": "11:30",
+            "category": "Food",
+            "sub_category": "Street Food",
+            "location": "Thane",
+            "weather_rationale": "Ideal sheltered/indoor stop for Moderate Rain Showers weather",
+            "coordinates": {
+              "lat": 19.195,
+              "lng": 72.97
+            },
+            "price_inr": 300.0,
+            "duration_minutes": 120,
+            "image_url": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?w=800&q=80",
+            "is_completed": false
+          },
+          {
+            "place_id": "MMR-003",
+            "name": "Masunda Lake (Talao Pali)",
+            "start_time": "12:00",
+            "end_time": "14:00",
+            "category": "Nature",
+            "sub_category": "Lake",
+            "location": "Thane",
+            "weather_rationale": "Weather-dependent stop; check conditions before visiting",
+            "coordinates": {
+              "lat": 19.1972,
+              "lng": 72.9714
+            },
+            "price_inr": 250.0,
+            "duration_minutes": 60,
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Masunda_Lake_Thane.jpg/800px-Masunda_Lake_Thane.jpg",
+            "is_completed": false
+          },
+          {
+            "place_id": "MMR-085",
+            "name": "Sindhi Camp Market",
+            "start_time": "14:30",
+            "end_time": "16:30",
+            "category": "Local Experience",
+            "sub_category": "Market & Food",
+            "location": "Ulhasnagar",
+            "weather_rationale": "Weather-dependent stop; check conditions before visiting",
+            "coordinates": {
+              "lat": 19.2215,
+              "lng": 73.1645
+            },
+            "price_inr": 250.0,
+            "duration_minutes": 150,
+            "image_url": "https://images.unsplash.com/photo-1533900298318-6b8da08a523e?w=800&q=80",
+            "is_completed": false
+          }
+        ]
+      },
+      {
+        "day_number": 2,
+        "date": "2026-10-25",
+        "weather_summary": {
+          "date": "2026-10-25",
+          "condition": "Light Drizzle",
+          "temp_min_c": 26.2,
+          "temp_max_c": 33.3,
+          "average_temp_c": 29.8,
+          "precipitation_sum_mm": 0.2,
+          "rain_probability_pct": 14,
+          "wind_speed_kmh": 14.0,
+          "uv_index": 6.7,
+          "forecast_available": true,
+          "suitability_score": 0.95,
+          "suitability_reason": "Great outdoor sightseeing weather"
+        },
+        "activities": [
+          {
+            "place_id": "NAVI-027",
+            "name": "Nerul Balaji Temple",
+            "start_time": "09:30",
+            "end_time": "11:30",
+            "category": "Culture",
+            "sub_category": "Temple",
+            "location": "Nerul",
+            "weather_rationale": "Favorable Light Drizzle conditions for sightseeing",
+            "coordinates": {
+              "lat": 19.0333,
+              "lng": 73.0187
+            },
+            "price_inr": 250.0,
+            "duration_minutes": 90,
+            "image_url": "https://images.unsplash.com/photo-1609766857041-ed402ea8069a?w=800&q=80",
+            "is_completed": false
+          },
+          {
+            "place_id": "EXP-MUJDVHZ0-849",
+            "name": "Shopping at Orion Mall Panvel",
+            "start_time": "12:00",
+            "end_time": "14:00",
+            "category": "Culinary & Food",
+            "sub_category": "Local Exploration",
+            "location": "Mumbai",
+            "weather_rationale": "Favorable Light Drizzle conditions for sightseeing",
+            "coordinates": {
+              "lat": 18.990418,
+              "lng": 73.127419
+            },
+            "price_inr": 1.0,
+            "duration_minutes": 900,
+            "image_url": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?w=800&q=80",
+            "is_completed": false
+          },
+          {
+            "place_id": "EXP-MUJDITPM-566",
+            "name": "Pillai University",
+            "start_time": "14:30",
+            "end_time": "16:30",
+            "category": "Culture & Arts",
+            "sub_category": "Local Exploration",
+            "location": "Mumbai",
+            "weather_rationale": "Favorable Light Drizzle conditions for sightseeing",
+            "coordinates": {
+              "lat": 18.990378,
+              "lng": 73.127511
+            },
+            "price_inr": 350000.0,
+            "duration_minutes": 120,
+            "image_url": "https://images.unsplash.com/photo-1452860606245-08befc0ff44b?w=800&q=80",
+            "is_completed": false
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "generation_method": "weather_aware_ml_pipeline",
+      "weather_source": "open-meteo",
+      "days_count": 2,
+      "warnings": []
+    },
+    "created_at": "2026-10-24T14:27:44.759598",
+    "updated_at": "2026-10-24T14:27:44.759605"
+  },
+  {
+    "id": "ITIN-F91460045D",
+    "itinerary_id": "ITIN-F91460045D",
+    "user_id": "test-user-001",
+    "destination_name": "Delhi",
+    "destination_coords": {
+      "lat": 28.6139,
+      "lng": 77.209
+    },
+    "start_date": "2026-10-24",
+    "days_count": 2,
+    "pace": "balanced",
+    "traveler_type": "Couple",
+    "interests": [
+      "Culture",
+      "Food"
+    ],
+    "total_cost": 4500.0,
+    "total_duration_minutes": 900,
+    "days": [
+      {
+        "day_number": 1,
+        "date": "2026-10-24",
+        "weather_summary": {
+          "date": "2026-10-24",
+          "condition": "Overcast",
+          "temp_min_c": 20.7,
+          "temp_max_c": 30.0,
+          "average_temp_c": 25.4,
+          "precipitation_sum_mm": 0.0,
+          "rain_probability_pct": 31,
+          "wind_speed_kmh": 12.5,
+          "uv_index": 5.15,
+          "forecast_available": true,
+          "suitability_score": 0.95,
+          "suitability_reason": "Great outdoor sightseeing weather"
+        },
+        "activities": [
+          {
+            "place_id": "DELHI-036",
+            "name": "Chandni Chowk Food Walk",
+            "start_time": "09:30",
+            "end_time": "11:30",
+            "category": "Food",
+            "sub_category": "Street Food Walk",
+            "location": "Delhi",
+            "weather_rationale": "Favorable Overcast conditions for sightseeing",
+            "coordinates": {
+              "lat": 28.6506,
+              "lng": 77.2303
+            },
+            "price_inr": 1000.0,
+            "duration_minutes": 180,
+            "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Street%20Food.jpg",
+            "is_completed": false
+          },
+          {
+            "place_id": "DELHI-067",
+            "name": "Old Delhi Cooking Class - Mughlai Cuisine",
+            "start_time": "12:00",
+            "end_time": "14:00",
+            "category": "Workshop",
+            "sub_category": "Culinary Class",
+            "location": "Delhi",
+            "weather_rationale": "Favorable Overcast conditions for sightseeing",
+            "coordinates": {
+              "lat": 28.652,
+              "lng": 77.229
+            },
+            "price_inr": 2500.0,
+            "duration_minutes": 240,
+            "image_url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80",
+            "is_completed": false
+          },
+          {
+            "place_id": "DELHI-033",
+            "name": "Dilli Haat INA - Handicrafts Bazaar",
+            "start_time": "14:30",
+            "end_time": "16:30",
+            "category": "Shopping",
+            "sub_category": "Handicrafts Market",
+            "location": "Delhi",
+            "weather_rationale": "Favorable Overcast conditions for sightseeing",
+            "coordinates": {
+              "lat": 28.5717,
+              "lng": 77.2103
+            },
+            "price_inr": 30.0,
+            "duration_minutes": 150,
+            "image_url": "https://images.unsplash.com/photo-1533900298318-6b8da08a523e?w=800&q=80",
+            "is_completed": false
+          }
+        ]
+      },
+      {
+        "day_number": 2,
+        "date": "2026-10-25",
+        "weather_summary": {
+          "date": "2026-10-25",
+          "condition": "Mainly Clear",
+          "temp_min_c": 20.1,
+          "temp_max_c": 30.0,
+          "average_temp_c": 25.1,
+          "precipitation_sum_mm": 0.0,
+          "rain_probability_pct": 2,
+          "wind_speed_kmh": 8.3,
+          "uv_index": 5.05,
+          "forecast_available": true,
+          "suitability_score": 0.95,
+          "suitability_reason": "Great outdoor sightseeing weather"
+        },
+        "activities": [
+          {
+            "place_id": "DELHI-023",
+            "name": "Crafts Museum & Hastkala Academy",
+            "start_time": "09:30",
+            "end_time": "11:30",
+            "category": "Museum",
+            "sub_category": "Handicrafts",
+            "location": "Delhi",
+            "weather_rationale": "Favorable Mainly Clear conditions for sightseeing",
+            "coordinates": {
+              "lat": 28.6142,
+              "lng": 77.2431
+            },
+            "price_inr": 20.0,
+            "duration_minutes": 120,
+            "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Red%20Fort%20Delhi.jpg",
+            "is_completed": false
+          },
+          {
+            "place_id": "DELHI-040",
+            "name": "Jama Masjid Kebab & Street Food Trail",
+            "start_time": "12:00",
+            "end_time": "14:00",
+            "category": "Food",
+            "sub_category": "Street Food Walk",
+            "location": "Delhi",
+            "weather_rationale": "Favorable Mainly Clear conditions for sightseeing",
+            "coordinates": {
+              "lat": 28.651,
+              "lng": 77.2325
+            },
+            "price_inr": 700.0,
+            "duration_minutes": 120,
+            "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Street%20Food.jpg",
+            "is_completed": false
+          },
+          {
+            "place_id": "DELHI-058",
+            "name": "ISKCON Temple Delhi",
+            "start_time": "14:30",
+            "end_time": "16:30",
+            "category": "Religious",
+            "sub_category": "Krishna Temple",
+            "location": "Delhi",
+            "weather_rationale": "Favorable Mainly Clear conditions for sightseeing",
+            "coordinates": {
+              "lat": 28.5518,
+              "lng": 77.2596
+            },
+            "price_inr": 250.0,
+            "duration_minutes": 90,
+            "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Khandoba%20temple%20Pune.jpg",
+            "is_completed": false
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "generation_method": "weather_aware_ml_pipeline",
+      "weather_source": "open-meteo",
+      "days_count": 2,
+      "warnings": []
+    },
+    "created_at": "2026-10-24T14:26:54.923853",
+    "updated_at": "2026-10-24T14:26:54.923858"
+  },
+  {
+    "id": "ITIN-C36F7BECE7",
+    "itinerary_id": "ITIN-C36F7BECE7",
+    "user_id": "test-user-001",
+    "destination_name": "Hyderabad",
+    "destination_coords": {
+      "lat": 17.385,
+      "lng": 78.4867
+    },
+    "start_date": "2026-10-24",
+    "days_count": 2,
+    "pace": "balanced",
+    "traveler_type": "Couple",
+    "interests": [
+      "Culture",
+      "Food"
+    ],
+    "total_cost": 2750.0,
+    "total_duration_minutes": 930,
+    "days": [
+      {
+        "day_number": 1,
+        "date": "2026-10-24",
+        "weather_summary": {
+          "date": "2026-10-24",
+          "condition": "Overcast",
+          "temp_min_c": 25.0,
+          "temp_max_c": 31.1,
+          "average_temp_c": 28.1,
+          "precipitation_sum_mm": 0.0,
+          "rain_probability_pct": 0,
+          "wind_speed_kmh": 11.1,
+          "uv_index": 7.75,
+          "forecast_available": true,
+          "suitability_score": 0.95,
+          "suitability_reason": "Great outdoor sightseeing weather"
+        },
+        "activities": [
+          {
+            "place_id": "EXP-HYD-004",
+            "name": "Salar Jung Museum World Antique Treasures",
+            "start_time": "09:30",
+            "end_time": "11:30",
+            "category": "Culture",
+            "sub_category": "Historic Museum",
+            "location": "Hyderabad",
+            "weather_rationale": "Favorable Overcast conditions for sightseeing",
+            "coordinates": {
+              "lat": 17.3713,
+              "lng": 78.4804
+            },
+            "price_inr": 200.0,
+            "duration_minutes": 180,
+            "image_url": "https://images.unsplash.com/photo-1609949279531-cf48d64bed89?w=800&q=80",
+            "is_completed": false
+          },
+          {
+            "place_id": "EXP-HYD-003",
+            "name": "Authentic Hyderabadi Dum Biryani & Irani Chai Tasting",
+            "start_time": "12:00",
+            "end_time": "14:00",
+            "category": "Food",
+            "sub_category": "Royal Culinary",
+            "location": "Hyderabad",
+            "weather_rationale": "Favorable Overcast conditions for sightseeing",
+            "coordinates": {
+              "lat": 17.365,
+              "lng": 78.478
+            },
+            "price_inr": 450.0,
+            "duration_minutes": 120,
+            "image_url": "https://images.unsplash.com/photo-1567337710282-00832b415979?w=800&q=80",
+            "is_completed": false
+          },
+          {
+            "place_id": "EXP-HYD-001",
+            "name": "Charminar & Laad Bazaar Pearl & Lacquer Bangle Walk",
+            "start_time": "14:30",
+            "end_time": "16:30",
+            "category": "Culture",
+            "sub_category": "Monument & Bazaar",
+            "location": "Hyderabad",
+            "weather_rationale": "Favorable Overcast conditions for sightseeing",
+            "coordinates": {
+              "lat": 17.3616,
+              "lng": 78.4747
+            },
+            "price_inr": 250.0,
+            "duration_minutes": 150,
+            "image_url": "https://images.unsplash.com/photo-1598890777032-bde13fbe34e5?w=800&q=80",
+            "is_completed": false
+          }
+        ]
+      },
+      {
+        "day_number": 2,
+        "date": "2026-10-25",
+        "weather_summary": {
+          "date": "2026-10-25",
+          "condition": "Overcast",
+          "temp_min_c": 23.5,
+          "temp_max_c": 32.1,
+          "average_temp_c": 27.8,
+          "precipitation_sum_mm": 0.0,
+          "rain_probability_pct": 0,
+          "wind_speed_kmh": 14.5,
+          "uv_index": 7.7,
+          "forecast_available": true,
+          "suitability_score": 0.95,
+          "suitability_reason": "Great outdoor sightseeing weather"
+        },
+        "activities": [
+          {
+            "place_id": "EXP-HYD-002",
+            "name": "Golconda Fort Acoustic Marvels & Sunset Trek",
+            "start_time": "09:30",
+            "end_time": "11:30",
+            "category": "Adventure",
+            "sub_category": "Fort Trek",
+            "location": "Hyderabad",
+            "weather_rationale": "Favorable Overcast conditions for sightseeing",
+            "coordinates": {
+              "lat": 17.3833,
+              "lng": 78.4011
+            },
+            "price_inr": 300.0,
+            "duration_minutes": 180,
+            "image_url": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=800&q=80",
+            "is_completed": false
+          },
+          {
+            "place_id": "EXP-HYD-008",
+            "name": "Qutb Shahi Tombs Heritage Garden Promenade",
+            "start_time": "12:00",
+            "end_time": "14:00",
+            "category": "Nature",
+            "sub_category": "Heritage Gardens",
+            "location": "Hyderabad",
+            "weather_rationale": "Favorable Overcast conditions for sightseeing",
+            "coordinates": {
+              "lat": 17.3892,
+              "lng": 78.3957
+            },
+            "price_inr": 150.0,
+            "duration_minutes": 120,
+            "image_url": "https://images.unsplash.com/photo-1596176530529-78163a4f7af2?w=800&q=80",
+            "is_completed": false
+          },
+          {
+            "place_id": "EXP-HYD-006",
+            "name": "Jubilee Hills Rooftop Lounges & Nightlife Hop",
+            "start_time": "14:30",
+            "end_time": "16:30",
+            "category": "Nightlife",
+            "sub_category": "Upscale Lounges",
+            "location": "Hyderabad",
+            "weather_rationale": "Favorable Overcast conditions for sightseeing",
+            "coordinates": {
+              "lat": 17.4319,
+              "lng": 78.4073
+            },
+            "price_inr": 1400.0,
+            "duration_minutes": 180,
+            "image_url": "https://images.unsplash.com/photo-1572116469696-31de0f17cc34?w=800&q=80",
+            "is_completed": false
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "generation_method": "weather_aware_ml_pipeline",
+      "weather_source": "open-meteo",
+      "days_count": 2,
+      "warnings": []
+    },
+    "created_at": "2026-10-24T14:26:52.958007",
+    "updated_at": "2026-10-24T14:26:52.958011"
+  },
+  {
+    "id": "ITIN-3460C4BFAD",
+    "itinerary_id": "ITIN-3460C4BFAD",
+    "user_id": "test-user-001",
+    "destination_name": "Bengaluru",
+    "destination_coords": {
+      "lat": 12.9716,
+      "lng": 77.5946
+    },
+    "start_date": "2026-10-24",
+    "days_count": 2,
+    "pace": "balanced",
+    "traveler_type": "Couple",
+    "interests": [
+      "Culture",
+      "Food"
+    ],
+    "total_cost": 2450.0,
+    "total_duration_minutes": 870,
+    "days": [
+      {
+        "day_number": 1,
+        "date": "2026-10-24",
+        "weather_summary": {
+          "date": "2026-10-24",
+          "condition": "Moderate Rain Showers",
+          "temp_min_c": 19.6,
+          "temp_max_c": 25.3,
+          "average_temp_c": 22.5,
+          "precipitation_sum_mm": 20.3,
+          "rain_probability_pct": 90,
+          "wind_speed_kmh": 11.3,
+          "uv_index": 7.85,
+          "forecast_available": true,
+          "suitability_score": 0.6,
+          "suitability_reason": "Rain expected; prefer indoor/sheltered experiences"
+        },
+        "activities": [
+          {
+            "place_id": "EXP-BLR-005",
+            "name": "Visvesvaraya Industrial & Science Museum Experience",
+            "start_time": "09:30",
+            "end_time": "11:30",
+            "category": "Culture",
+            "sub_category": "Science & Innovation",
+            "location": "Bengaluru",
+            "weather_rationale": "Ideal sheltered/indoor stop for Moderate Rain Showers weather",
+            "coordinates": {
+              "lat": 12.9754,
+              "lng": 77.596
+            },
+            "price_inr": 200.0,
+            "duration_minutes": 150,
+            "image_url": "https://images.unsplash.com/photo-1609949279531-cf48d64bed89?w=800&q=80",
+            "is_completed": false
+          },
+          {
+            "place_id": "EXP-BLR-003",
+            "name": "Bangalore Palace Tudor Royal Architecture Tour",
+            "start_time": "12:00",
+            "end_time": "14:00",
+            "category": "Culture",
+            "sub_category": "Royal Palace",
+            "location": "Bengaluru",
+            "weather_rationale": "Ideal sheltered/indoor stop for Moderate Rain Showers weather",
+            "coordinates": {
+              "lat": 12.9988,
+              "lng": 77.5921
+            },
+            "price_inr": 450.0,
+            "duration_minutes": 150,
+            "image_url": "https://images.unsplash.com/photo-1598890777032-bde13fbe34e5?w=800&q=80",
+            "is_completed": false
+          },
+          {
+            "place_id": "EXP-BLR-002",
+            "name": "VV Puram Food Street Culinary Walk",
+            "start_time": "14:30",
+            "end_time": "16:30",
+            "category": "Food",
+            "sub_category": "Street Food",
+            "location": "Bengaluru",
+            "weather_rationale": "Ideal sheltered/indoor stop for Moderate Rain Showers weather",
+            "coordinates": {
+              "lat": 12.9535,
+              "lng": 77.5779
+            },
+            "price_inr": 350.0,
+            "duration_minutes": 120,
+            "image_url": "https://images.unsplash.com/photo-1567337710282-00832b415979?w=800&q=80",
+            "is_completed": false
+          }
+        ]
+      },
+      {
+        "day_number": 2,
+        "date": "2026-10-25",
+        "weather_summary": {
+          "date": "2026-10-25",
+          "condition": "Thunderstorm",
+          "temp_min_c": 19.5,
+          "temp_max_c": 25.4,
+          "average_temp_c": 22.4,
+          "precipitation_sum_mm": 13.3,
+          "rain_probability_pct": 80,
+          "wind_speed_kmh": 13.1,
+          "uv_index": 3.6,
+          "forecast_available": true,
+          "suitability_score": 0.6,
+          "suitability_reason": "Rain expected; prefer indoor/sheltered experiences"
+        },
+        "activities": [
+          {
+            "place_id": "EXP-BLR-007",
+            "name": "Cubbon Park Green Canopy Cycling & Artisan Coffee",
+            "start_time": "09:30",
+            "end_time": "11:30",
+            "category": "Nature",
+            "sub_category": "Urban Park",
+            "location": "Bengaluru",
+            "weather_rationale": "Weather-dependent stop; check conditions before visiting",
+            "coordinates": {
+              "lat": 12.9763,
+              "lng": 77.5929
+            },
+            "price_inr": 200.0,
+            "duration_minutes": 120,
+            "image_url": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=800&q=80",
+            "is_completed": false
+          },
+          {
+            "place_id": "EXP-BLR-001",
+            "name": "Lalbagh Botanical Gardens & Glass House Morning Walk",
+            "start_time": "12:00",
+            "end_time": "14:00",
+            "category": "Nature",
+            "sub_category": "Botanical Gardens",
+            "location": "Bengaluru",
+            "weather_rationale": "Weather-dependent stop; check conditions before visiting",
+            "coordinates": {
+              "lat": 12.9507,
+              "lng": 77.5848
+            },
+            "price_inr": 150.0,
+            "duration_minutes": 150,
+            "image_url": "https://images.unsplash.com/photo-1596176530529-78163a4f7af2?w=800&q=80",
+            "is_completed": false
+          },
+          {
+            "place_id": "EXP-BLR-004",
+            "name": "Indiranagar 100ft Road Craft Breweries & Live Jazz",
+            "start_time": "14:30",
+            "end_time": "16:30",
+            "category": "Nightlife",
+            "sub_category": "Craft Breweries",
+            "location": "Bengaluru",
+            "weather_rationale": "Ideal sheltered/indoor stop for Thunderstorm weather",
+            "coordinates": {
+              "lat": 12.9719,
+              "lng": 77.6412
+            },
+            "price_inr": 1100.0,
+            "duration_minutes": 180,
+            "image_url": "https://images.unsplash.com/photo-1572116469696-31de0f17cc34?w=800&q=80",
+            "is_completed": false
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "generation_method": "weather_aware_ml_pipeline",
+      "weather_source": "open-meteo",
+      "days_count": 2,
+      "warnings": []
+    },
+    "created_at": "2026-10-24T14:26:51.117613",
+    "updated_at": "2026-10-24T14:26:51.117619"
+  },
+  {
+    "id": "ITIN-3205C951E4",
+    "itinerary_id": "ITIN-3205C951E4",
+    "user_id": "test-user-001",
+    "destination_name": "Goa",
+    "destination_coords": {
+      "lat": 15.2993,
+      "lng": 74.124
+    },
+    "start_date": "2026-10-24",
+    "days_count": 2,
+    "pace": "balanced",
+    "traveler_type": "Couple",
+    "interests": [
+      "Culture",
+      "Food"
+    ],
+    "total_cost": 3050.0,
+    "total_duration_minutes": 840,
+    "days": [
+      {
+        "day_number": 1,
+        "date": "2026-10-24",
+        "weather_summary": {
+          "date": "2026-10-24",
+          "condition": "Thunderstorm",
+          "temp_min_c": 24.4,
+          "temp_max_c": 32.7,
+          "average_temp_c": 28.6,
+          "precipitation_sum_mm": 7.4,
+          "rain_probability_pct": 100,
+          "wind_speed_kmh": 10.5,
+          "uv_index": 6.4,
+          "forecast_available": true,
+          "suitability_score": 0.6,
+          "suitability_reason": "Rain expected; prefer indoor/sheltered experiences"
+        },
+        "activities": [
+          {
+            "place_id": "EXP-GOA-002",
+            "name": "Basilica of Bom Jesus & Old Goa Churches",
+            "start_time": "09:30",
+            "end_time": "11:30",
+            "category": "Culture",
+            "sub_category": "Historic Churches",
+            "location": "Goa",
+            "weather_rationale": "Ideal sheltered/indoor stop for Thunderstorm weather",
+            "coordinates": {
+              "lat": 15.5009,
+              "lng": 73.9116
+            },
+            "price_inr": 150.0,
+            "duration_minutes": 150,
+            "image_url": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?w=800&q=80",
+            "is_completed": false
+          },
+          {
+            "place_id": "EXP-GOA-001",
+            "name": "Fontainhas Latin Quarter Heritage Walk",
+            "start_time": "12:00",
+            "end_time": "14:00",
+            "category": "Culture",
+            "sub_category": "Heritage Walk",
+            "location": "Goa",
+            "weather_rationale": "Ideal sheltered/indoor stop for Thunderstorm weather",
+            "coordinates": {
+              "lat": 15.4989,
+              "lng": 73.834
+            },
+            "price_inr": 350.0,
+            "duration_minutes": 120,
+            "image_url": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=800&q=80",
+            "is_completed": false
+          },
+          {
+            "place_id": "EXP-GOA-005",
+            "name": "Authentic Goan Fish Curry Thali Tasting",
+            "start_time": "14:30",
+            "end_time": "16:30",
+            "category": "Food",
+            "sub_category": "Coastal Seafood",
+            "location": "Goa",
+            "weather_rationale": "Ideal sheltered/indoor stop for Thunderstorm weather",
+            "coordinates": {
+              "lat": 15.495,
+              "lng": 73.825
+            },
+            "price_inr": 450.0,
+            "duration_minutes": 90,
+            "image_url": "https://images.unsplash.com/photo-1567337710282-00832b415979?w=800&q=80",
+            "is_completed": false
+          }
+        ]
+      },
+      {
+        "day_number": 2,
+        "date": "2026-10-25",
+        "weather_summary": {
+          "date": "2026-10-25",
+          "condition": "Light Drizzle",
+          "temp_min_c": 23.3,
+          "temp_max_c": 33.5,
+          "average_temp_c": 28.4,
+          "precipitation_sum_mm": 0.2,
+          "rain_probability_pct": 4,
+          "wind_speed_kmh": 13.1,
+          "uv_index": 7.8,
+          "forecast_available": true,
+          "suitability_score": 0.95,
+          "suitability_reason": "Great outdoor sightseeing weather"
+        },
+        "activities": [
+          {
+            "place_id": "EXP-GOA-007",
+            "name": "Sahakari Organic Spice Plantation & Elephant Shower",
+            "start_time": "09:30",
+            "end_time": "11:30",
+            "category": "Nature",
+            "sub_category": "Spice Tour",
+            "location": "Goa",
+            "weather_rationale": "Favorable Light Drizzle conditions for sightseeing",
+            "coordinates": {
+              "lat": 15.405,
+              "lng": 74.015
+            },
+            "price_inr": 600.0,
+            "duration_minutes": 180,
+            "image_url": "https://images.unsplash.com/photo-1596176530529-78163a4f7af2?w=800&q=80",
+            "is_completed": false
+          },
+          {
+            "place_id": "EXP-GOA-008",
+            "name": "Saturday Night Market Arpora Artisan Shopping",
+            "start_time": "12:00",
+            "end_time": "14:00",
+            "category": "Shopping",
+            "sub_category": "Night Market",
+            "location": "Goa",
+            "weather_rationale": "Favorable Light Drizzle conditions for sightseeing",
+            "coordinates": {
+              "lat": 15.572,
+              "lng": 73.766
+            },
+            "price_inr": 300.0,
+            "duration_minutes": 150,
+            "image_url": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=800&q=80",
+            "is_completed": false
+          },
+          {
+            "place_id": "EXP-GOA-004",
+            "name": "Anjuna Beach Watersports & Parasailing Adventure",
+            "start_time": "14:30",
+            "end_time": "16:30",
+            "category": "Adventure",
+            "sub_category": "Watersports",
+            "location": "Goa",
+            "weather_rationale": "Favorable Light Drizzle conditions for sightseeing",
+            "coordinates": {
+              "lat": 15.5807,
+              "lng": 73.7431
+            },
+            "price_inr": 1200.0,
+            "duration_minutes": 150,
+            "image_url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80",
+            "is_completed": false
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "generation_method": "weather_aware_ml_pipeline",
+      "weather_source": "open-meteo",
+      "days_count": 2,
+      "warnings": []
+    },
+    "created_at": "2026-10-24T14:26:48.840198",
+    "updated_at": "2026-10-24T14:26:48.840204"
+  },
+  {
+    "id": "ITIN-F04669CD8C",
+    "itinerary_id": "ITIN-F04669CD8C",
+    "user_id": "test-user-001",
+    "destination_name": "Jaipur",
+    "destination_coords": {
+      "lat": 26.9124,
+      "lng": 75.7873
+    },
+    "start_date": "2026-10-24",
+    "days_count": 2,
+    "pace": "balanced",
+    "traveler_type": "Couple",
+    "interests": [
+      "Culture",
+      "Food"
+    ],
+    "total_cost": 1950.0,
+    "total_duration_minutes": 840,
+    "days": [
+      {
+        "day_number": 1,
+        "date": "2026-10-24",
+        "weather_summary": {
+          "date": "2026-10-24",
+          "condition": "Moderate Drizzle",
+          "temp_min_c": 22.0,
+          "temp_max_c": 31.9,
+          "average_temp_c": 26.9,
+          "precipitation_sum_mm": 0.8,
+          "rain_probability_pct": 6,
+          "wind_speed_kmh": 10.0,
+          "uv_index": 5.9,
+          "forecast_available": true,
+          "suitability_score": 0.95,
+          "suitability_reason": "Great outdoor sightseeing weather"
+        },
+        "activities": [
+          {
+            "place_id": "EXP-JPR-004",
+            "name": "City Palace & Jantar Mantar Observatory",
+            "start_time": "09:30",
+            "end_time": "11:30",
+            "category": "Culture",
+            "sub_category": "Museums & Science",
+            "location": "Jaipur",
+            "weather_rationale": "Favorable Moderate Drizzle conditions for sightseeing",
+            "coordinates": {
+              "lat": 26.9258,
+              "lng": 75.8237
+            },
+            "price_inr": 350.0,
+            "duration_minutes": 150,
+            "image_url": "https://images.unsplash.com/photo-1598890777032-bde13fbe34e5?w=800&q=80",
+            "is_completed": false
+          },
+          {
+            "place_id": "EXP-JPR-002",
+            "name": "Hawa Mahal & Old Pink City Cultural Walk",
+            "start_time": "12:00",
+            "end_time": "14:00",
+            "category": "Culture",
+            "sub_category": "Walking Tour",
+            "location": "Jaipur",
+            "weather_rationale": "Favorable Moderate Drizzle conditions for sightseeing",
+            "coordinates": {
+              "lat": 26.9239,
+              "lng": 75.8267
+            },
+            "price_inr": 200.0,
+            "duration_minutes": 120,
+            "image_url": "https://images.unsplash.com/photo-1603290616147-3a9d94380d0d?w=800&q=80",
+            "is_completed": false
+          },
+          {
+            "place_id": "EXP-JPR-001",
+            "name": "Amber Fort & Palace Heritage Tour",
+            "start_time": "14:30",
+            "end_time": "16:30",
+            "category": "Culture",
+            "sub_category": "Heritage & Forts",
+            "location": "Jaipur",
+            "weather_rationale": "Favorable Moderate Drizzle conditions for sightseeing",
+            "coordinates": {
+              "lat": 26.9855,
+              "lng": 75.8513
+            },
+            "price_inr": 500.0,
+            "duration_minutes": 180,
+            "image_url": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=800&q=80",
+            "is_completed": false
+          }
+        ]
+      },
+      {
+        "day_number": 2,
+        "date": "2026-10-25",
+        "weather_summary": {
+          "date": "2026-10-25",
+          "condition": "Mainly Clear",
+          "temp_min_c": 18.6,
+          "temp_max_c": 33.3,
+          "average_temp_c": 25.9,
+          "precipitation_sum_mm": 0.0,
+          "rain_probability_pct": 4,
+          "wind_speed_kmh": 11.9,
+          "uv_index": 5.9,
+          "forecast_available": true,
+          "suitability_score": 0.95,
+          "suitability_reason": "Great outdoor sightseeing weather"
+        },
+        "activities": [
+          {
+            "place_id": "EXP-JPR-006",
+            "name": "Albert Hall Museum Indo-Saracenic Art Gallery",
+            "start_time": "09:30",
+            "end_time": "11:30",
+            "category": "Culture",
+            "sub_category": "Museums & Arts",
+            "location": "Jaipur",
+            "weather_rationale": "Favorable Mainly Clear conditions for sightseeing",
+            "coordinates": {
+              "lat": 26.9116,
+              "lng": 75.8195
+            },
+            "price_inr": 300.0,
+            "duration_minutes": 120,
+            "image_url": "https://images.unsplash.com/photo-1609949279531-cf48d64bed89?w=800&q=80",
+            "is_completed": false
+          },
+          {
+            "place_id": "EXP-JPR-003",
+            "name": "Johari Bazaar Gemstone & Street Food Trail",
+            "start_time": "12:00",
+            "end_time": "14:00",
+            "category": "Food",
+            "sub_category": "Street Food & Markets",
+            "location": "Jaipur",
+            "weather_rationale": "Favorable Mainly Clear conditions for sightseeing",
+            "coordinates": {
+              "lat": 26.9196,
+              "lng": 75.8275
+            },
+            "price_inr": 450.0,
+            "duration_minutes": 150,
+            "image_url": "https://images.unsplash.com/photo-1567337710282-00832b415979?w=800&q=80",
+            "is_completed": false
+          },
+          {
+            "place_id": "EXP-JPR-005",
+            "name": "Nahargarh Fort Sunset & Panoramic City View",
+            "start_time": "14:30",
+            "end_time": "16:30",
+            "category": "Nature",
+            "sub_category": "Viewpoints & Sunset",
+            "location": "Jaipur",
+            "weather_rationale": "Favorable Mainly Clear conditions for sightseeing",
+            "coordinates": {
+              "lat": 26.9372,
+              "lng": 75.8155
+            },
+            "price_inr": 150.0,
+            "duration_minutes": 120,
+            "image_url": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=800&q=80",
+            "is_completed": false
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "generation_method": "weather_aware_ml_pipeline",
+      "weather_source": "open-meteo",
+      "days_count": 2,
+      "warnings": []
+    },
+    "created_at": "2026-10-24T14:26:46.677083",
+    "updated_at": "2026-10-24T14:26:46.677088"
+  },
+  {
+    "id": "ITIN-00C8868F3E",
+    "itinerary_id": "ITIN-00C8868F3E",
+    "user_id": "test-user-001",
+    "destination_name": "Pune",
+    "destination_coords": {
+      "lat": 18.5204,
+      "lng": 73.8567
+    },
+    "start_date": "2026-10-24",
+    "days_count": 2,
+    "pace": "balanced",
+    "traveler_type": "Couple",
+    "interests": [
+      "Culture",
+      "Food"
+    ],
+    "total_cost": 1950.0,
+    "total_duration_minutes": 900,
+    "days": [
+      {
+        "day_number": 1,
+        "date": "2026-10-24",
+        "weather_summary": {
+          "date": "2026-10-24",
+          "condition": "Moderate Drizzle",
+          "temp_min_c": 23.0,
+          "temp_max_c": 31.5,
+          "average_temp_c": 27.2,
+          "precipitation_sum_mm": 3.0,
+          "rain_probability_pct": 52,
+          "wind_speed_kmh": 11.9,
+          "uv_index": 6.9,
+          "forecast_available": true,
+          "suitability_score": 0.6,
+          "suitability_reason": "Rain expected; prefer indoor/sheltered experiences"
+        },
+        "activities": [
+          {
+            "place_id": "EXP-PUN-001",
+            "name": "Shaniwar Wada Historic Peshwa Fort Exploration",
+            "start_time": "09:30",
+            "end_time": "11:30",
+            "category": "Culture",
+            "sub_category": "Historic Fort",
+            "location": "Pune",
+            "weather_rationale": "Ideal sheltered/indoor stop for Moderate Drizzle weather",
+            "coordinates": {
+              "lat": 18.5196,
+              "lng": 73.8553
+            },
+            "price_inr": 200.0,
+            "duration_minutes": 120,
+            "image_url": "https://images.unsplash.com/photo-1609949279531-cf48d64bed89?w=800&q=80",
+            "is_completed": false
+          },
+          {
+            "place_id": "EXP-PUN-003",
+            "name": "FC Road Student Cafes & Bun Maska Irani Chai Trail",
+            "start_time": "12:00",
+            "end_time": "14:00",
+            "category": "Food",
+            "sub_category": "Street Food & Cafes",
+            "location": "Pune",
+            "weather_rationale": "Ideal sheltered/indoor stop for Moderate Drizzle weather",
+            "coordinates": {
+              "lat": 18.5284,
+              "lng": 73.8415
+            },
+            "price_inr": 250.0,
+            "duration_minutes": 120,
+            "image_url": "https://images.unsplash.com/photo-1567337710282-00832b415979?w=800&q=80",
+            "is_completed": false
+          },
+          {
+            "place_id": "EXP-PUN-002",
+            "name": "Aga Khan Palace & Gandhi Memorial Grounds",
+            "start_time": "14:30",
+            "end_time": "16:30",
+            "category": "Culture",
+            "sub_category": "National Memorial",
+            "location": "Pune",
+            "weather_rationale": "Ideal sheltered/indoor stop for Moderate Drizzle weather",
+            "coordinates": {
+              "lat": 18.5524,
+              "lng": 73.9015
+            },
+            "price_inr": 150.0,
+            "duration_minutes": 120,
+            "image_url": "https://images.unsplash.com/photo-1598890777032-bde13fbe34e5?w=800&q=80",
+            "is_completed": false
+          }
+        ]
+      },
+      {
+        "day_number": 2,
+        "date": "2026-10-25",
+        "weather_summary": {
+          "date": "2026-10-25",
+          "condition": "Overcast",
+          "temp_min_c": 21.5,
+          "temp_max_c": 32.4,
+          "average_temp_c": 26.9,
+          "precipitation_sum_mm": 0.0,
+          "rain_probability_pct": 36,
+          "wind_speed_kmh": 9.8,
+          "uv_index": 7.25,
+          "forecast_available": true,
+          "suitability_score": 0.95,
+          "suitability_reason": "Great outdoor sightseeing weather"
+        },
+        "activities": [
+          {
+            "place_id": "EXP-PUN-005",
+            "name": "Raja Dinkar Kelkar Museum Curiosities Collection",
+            "start_time": "09:30",
+            "end_time": "11:30",
+            "category": "Culture",
+            "sub_category": "Indoor Museum",
+            "location": "Pune",
+            "weather_rationale": "Favorable Overcast conditions for sightseeing",
+            "coordinates": {
+              "lat": 18.5108,
+              "lng": 73.8542
+            },
+            "price_inr": 150.0,
+            "duration_minutes": 120,
+            "image_url": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=800&q=80",
+            "is_completed": false
+          },
+          {
+            "place_id": "EXP-PUN-006",
+            "name": "Viman Nagar Microbrewery & Live Music Hop",
+            "start_time": "12:00",
+            "end_time": "14:00",
+            "category": "Nightlife",
+            "sub_category": "Brewery & Music",
+            "location": "Pune",
+            "weather_rationale": "Favorable Overcast conditions for sightseeing",
+            "coordinates": {
+              "lat": 18.5679,
+              "lng": 73.9143
+            },
+            "price_inr": 900.0,
+            "duration_minutes": 180,
+            "image_url": "https://images.unsplash.com/photo-1572116469696-31de0f17cc34?w=800&q=80",
+            "is_completed": false
+          },
+          {
+            "place_id": "EXP-PUN-004",
+            "name": "Sinhagad Fort Monsoon Mountain Trek",
+            "start_time": "14:30",
+            "end_time": "16:30",
+            "category": "Adventure",
+            "sub_category": "Mountain Trek",
+            "location": "Pune",
+            "weather_rationale": "Favorable Overcast conditions for sightseeing",
+            "coordinates": {
+              "lat": 18.3663,
+              "lng": 73.7558
+            },
+            "price_inr": 300.0,
+            "duration_minutes": 240,
+            "image_url": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=800&q=80",
+            "is_completed": false
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "generation_method": "weather_aware_ml_pipeline",
+      "weather_source": "open-meteo",
+      "days_count": 2,
+      "warnings": []
+    },
+    "created_at": "2026-10-24T14:26:44.338247",
+    "updated_at": "2026-10-24T14:26:44.338253"
+  },
+  {
+    "id": "ITIN-12A81C53D0",
+    "itinerary_id": "ITIN-12A81C53D0",
+    "user_id": "test-user-001",
+    "destination_name": "Mumbai",
+    "destination_coords": {
+      "lat": 19.076,
+      "lng": 72.8777
+    },
+    "start_date": "2026-10-24",
+    "days_count": 2,
+    "pace": "balanced",
+    "traveler_type": "Couple",
+    "interests": [
+      "Culture",
+      "Food"
+    ],
+    "total_cost": 351051.0,
+    "total_duration_minutes": 1440,
+    "days": [
+      {
+        "day_number": 1,
+        "date": "2026-10-24",
+        "weather_summary": {
+          "date": "2026-10-24",
+          "condition": "Moderate Rain Showers",
+          "temp_min_c": 26.6,
+          "temp_max_c": 33.5,
+          "average_temp_c": 30.1,
+          "precipitation_sum_mm": 3.2,
+          "rain_probability_pct": 86,
+          "wind_speed_kmh": 9.3,
+          "uv_index": 6.85,
+          "forecast_available": true,
+          "suitability_score": 0.6,
+          "suitability_reason": "Rain expected; prefer indoor/sheltered experiences"
+        },
+        "activities": [
+          {
+            "place_id": "MMR-017",
+            "name": "Naupada Street Food Walk",
+            "start_time": "09:30",
+            "end_time": "11:30",
+            "category": "Food",
+            "sub_category": "Street Food",
+            "location": "Thane",
+            "weather_rationale": "Ideal sheltered/indoor stop for Moderate Rain Showers weather",
+            "coordinates": {
+              "lat": 19.195,
+              "lng": 72.97
+            },
+            "price_inr": 300.0,
+            "duration_minutes": 120,
+            "image_url": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?w=800&q=80",
+            "is_completed": false
+          },
+          {
+            "place_id": "MMR-003",
+            "name": "Masunda Lake (Talao Pali)",
+            "start_time": "12:00",
+            "end_time": "14:00",
+            "category": "Nature",
+            "sub_category": "Lake",
+            "location": "Thane",
+            "weather_rationale": "Weather-dependent stop; check conditions before visiting",
+            "coordinates": {
+              "lat": 19.1972,
+              "lng": 72.9714
+            },
+            "price_inr": 250.0,
+            "duration_minutes": 60,
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Masunda_Lake_Thane.jpg/800px-Masunda_Lake_Thane.jpg",
+            "is_completed": false
+          },
+          {
+            "place_id": "MMR-085",
+            "name": "Sindhi Camp Market",
+            "start_time": "14:30",
+            "end_time": "16:30",
+            "category": "Local Experience",
+            "sub_category": "Market & Food",
+            "location": "Ulhasnagar",
+            "weather_rationale": "Weather-dependent stop; check conditions before visiting",
+            "coordinates": {
+              "lat": 19.2215,
+              "lng": 73.1645
+            },
+            "price_inr": 250.0,
+            "duration_minutes": 150,
+            "image_url": "https://images.unsplash.com/photo-1533900298318-6b8da08a523e?w=800&q=80",
+            "is_completed": false
+          }
+        ]
+      },
+      {
+        "day_number": 2,
+        "date": "2026-10-25",
+        "weather_summary": {
+          "date": "2026-10-25",
+          "condition": "Light Drizzle",
+          "temp_min_c": 26.2,
+          "temp_max_c": 33.3,
+          "average_temp_c": 29.8,
+          "precipitation_sum_mm": 0.2,
+          "rain_probability_pct": 14,
+          "wind_speed_kmh": 14.0,
+          "uv_index": 6.7,
+          "forecast_available": true,
+          "suitability_score": 0.95,
+          "suitability_reason": "Great outdoor sightseeing weather"
+        },
+        "activities": [
+          {
+            "place_id": "NAVI-027",
+            "name": "Nerul Balaji Temple",
+            "start_time": "09:30",
+            "end_time": "11:30",
+            "category": "Culture",
+            "sub_category": "Temple",
+            "location": "Nerul",
+            "weather_rationale": "Favorable Light Drizzle conditions for sightseeing",
+            "coordinates": {
+              "lat": 19.0333,
+              "lng": 73.0187
+            },
+            "price_inr": 250.0,
+            "duration_minutes": 90,
+            "image_url": "https://images.unsplash.com/photo-1609766857041-ed402ea8069a?w=800&q=80",
+            "is_completed": false
+          },
+          {
+            "place_id": "EXP-MUJDVHZ0-849",
+            "name": "Shopping at Orion Mall Panvel",
+            "start_time": "12:00",
+            "end_time": "14:00",
+            "category": "Culinary & Food",
+            "sub_category": "Local Exploration",
+            "location": "Mumbai",
+            "weather_rationale": "Favorable Light Drizzle conditions for sightseeing",
+            "coordinates": {
+              "lat": 18.990418,
+              "lng": 73.127419
+            },
+            "price_inr": 1.0,
+            "duration_minutes": 900,
+            "image_url": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?w=800&q=80",
+            "is_completed": false
+          },
+          {
+            "place_id": "EXP-MUJDITPM-566",
+            "name": "Pillai University",
+            "start_time": "14:30",
+            "end_time": "16:30",
+            "category": "Culture & Arts",
+            "sub_category": "Local Exploration",
+            "location": "Mumbai",
+            "weather_rationale": "Favorable Light Drizzle conditions for sightseeing",
+            "coordinates": {
+              "lat": 18.990378,
+              "lng": 73.127511
+            },
+            "price_inr": 350000.0,
+            "duration_minutes": 120,
+            "image_url": "https://images.unsplash.com/photo-1452860606245-08befc0ff44b?w=800&q=80",
+            "is_completed": false
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "generation_method": "weather_aware_ml_pipeline",
+      "weather_source": "open-meteo",
+      "days_count": 2,
+      "warnings": []
+    },
+    "created_at": "2026-10-24T14:26:42.323086",
+    "updated_at": "2026-10-24T14:26:42.323097"
+  }
+]
