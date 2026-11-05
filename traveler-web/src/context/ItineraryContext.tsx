@@ -335,20 +335,21 @@ export function ItineraryProvider({ children }: { children: ReactNode }) {
       const targetCount = desiredExperienceCount > 0 ? desiredExperienceCount : 4;
       const currentRecs = recommendationsRef.current;
 
-      // Derive a consistent selected list from the ref — avoids the case where
-      // selectedExperienceIds and selectedPlaces state diverge across renders.
+      // Ensure all selected places chosen by the user are preserved
       const selectedList =
-        selectedExperienceIds.length > 0
+        selectedPlaces.length > 0
+          ? selectedPlaces.map((p) => p.experienceId)
+          : selectedExperienceIds.length > 0
           ? selectedExperienceIds
           : currentRecs.slice(0, targetCount).map((r) => r.experienceId);
 
-      // Always re-derive selectedPlacesModels from the ref to stay in sync with
-      // selectedList — this prevents passing stale/wrong places when the user
-      // has picked experiences from multiple recommendation fetches.
+      // Prioritize selectedPlaces directly if user swiped & selected items
       const derivedSelectedPlaces =
-        selectedList.length > 0
+        selectedPlaces.length > 0
+          ? selectedPlaces
+          : selectedList.length > 0 && currentRecs.length > 0
           ? currentRecs.filter((r) => selectedList.includes(r.experienceId))
-          : selectedPlaces;
+          : [];
 
       const itin = await ApiService.generateItinerary({
         destination: dest,

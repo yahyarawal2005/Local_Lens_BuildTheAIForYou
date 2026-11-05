@@ -25,12 +25,13 @@ import {
   MessageSquare,
   X,
   Share2,
+  Info,
 } from 'lucide-react';
 import { MapMarkerPoint } from '@/components/maps/InteractiveMap';
 
-const InteractiveMap = dynamic(
-  () => import('@/components/maps/InteractiveMap').then((m) => m.InteractiveMap),
-  { ssr: false, loading: () => <div className="h-64 w-full rounded-2xl bg-black/5 animate-pulse" /> }
+const GoogleMapRoute = dynamic(
+  () => import('@/components/maps/GoogleMapRoute').then((m) => m.GoogleMapRoute),
+  { ssr: false, loading: () => <div className="h-64 sm:h-80 w-full rounded-2xl bg-black/5 animate-pulse" /> }
 );
 
 export default function GeneratedItineraryDetailPage({ params }: { params: Promise<{ id: string }> }) {
@@ -42,6 +43,7 @@ export default function GeneratedItineraryDetailPage({ params }: { params: Promi
     optimizeCurrentItinerary,
     applyOptimizationChanges,
     completeExperience,
+    desiredExperienceCount,
   } = useItinerary();
   const { setLocations } = useRide();
 
@@ -255,7 +257,7 @@ export default function GeneratedItineraryDetailPage({ params }: { params: Promi
 
         {showMap && (
           <div className="h-64 sm:h-80 rounded-3xl overflow-hidden border border-[#EAE8E3] dark:border-slate-700 shadow-soft">
-            <InteractiveMap
+            <GoogleMapRoute
               markers={mapMarkers}
               center={
                 mapMarkers.length > 0
@@ -375,6 +377,51 @@ export default function GeneratedItineraryDetailPage({ params }: { params: Promi
             );
           })}
         </div>
+
+        {/* Time Constraint / Number of Stops Explanation Div */}
+        {((itinerary.skippedExperiences && itinerary.skippedExperiences.length > 0) ||
+          (desiredExperienceCount > itinerary.items.length) ||
+          (itinerary.items.length === 2 && desiredExperienceCount >= 3)) && (
+          <div className="p-4 sm:p-5 rounded-3xl bg-blue-50/90 dark:bg-blue-950/40 border border-blue-200 dark:border-blue-900/60 shadow-soft space-y-3 mt-4">
+            <div className="flex items-start gap-3">
+              <div className="w-8 h-8 rounded-full bg-blue-600/10 dark:bg-blue-400/20 text-blue-600 dark:text-blue-400 flex items-center justify-center shrink-0 mt-0.5">
+                <Info className="w-4 h-4" />
+              </div>
+              <div className="space-y-1">
+                <h4 className="font-display font-bold text-sm sm:text-base text-blue-950 dark:text-blue-200">
+                  Why Are Only {itinerary.items.length} Stops Scheduled?
+                </h4>
+                <p className="text-xs text-blue-900/80 dark:text-blue-300 leading-relaxed">
+                  You selected {Math.max(desiredExperienceCount, itinerary.items.length + (itinerary.skippedExperiences?.length || 1))} stops during itinerary creation. To respect your available time window ({itinerary.startTime} - {itinerary.endTime}) and account for traffic transit between locations, LocalLens optimized your schedule to {itinerary.items.length} quality stops so you can enjoy each place without feeling rushed.
+                </p>
+              </div>
+            </div>
+
+            {itinerary.skippedExperiences && itinerary.skippedExperiences.length > 0 && (
+              <div className="pt-2 border-t border-blue-200/60 dark:border-blue-900/40 space-y-2">
+                <span className="text-[11px] font-bold uppercase tracking-wider text-blue-800 dark:text-blue-300 block">
+                  Adjusted Stop Details:
+                </span>
+                {itinerary.skippedExperiences.map((skipped, sIdx) => (
+                  <div
+                    key={sIdx}
+                    className="p-3 rounded-2xl bg-white/80 dark:bg-slate-800/80 border border-blue-100 dark:border-blue-900 flex flex-col sm:flex-row sm:items-center justify-between gap-2 text-xs"
+                  >
+                    <div className="flex items-center gap-2">
+                      <span className="w-2 h-2 rounded-full bg-amber-500 shrink-0" />
+                      <span className="font-bold text-[#1A1A1A] dark:text-white">
+                        {skipped.name}
+                      </span>
+                    </div>
+                    <span className="text-[11px] font-medium text-amber-700 dark:text-amber-400">
+                      {skipped.reason}
+                    </span>
+                  </div>
+                ))}
+              </div>
+            )}
+          </div>
+        )}
       </div>
 
       {/* Floating Action Bar */}

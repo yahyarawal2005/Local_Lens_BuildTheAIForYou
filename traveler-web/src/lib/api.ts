@@ -1083,19 +1083,51 @@ export function buildFallbackItinerary(params: {
   }
 
   const items: ItineraryItem[] = [];
+  const skipped: SkippedExperienceItem[] = [];
   let totalCost = 0;
   let totalMins = 0;
   const maxAllowedMins = Math.round(params.durationHours > 0 ? params.durationHours * 60 : 300);
 
+  // Adaptive duration scaling for multi-stop journeys
+  const numCandidates = itemsToUse.length;
+  const totalEstimatedTransit = Math.max(0, (numCandidates - 1) * 15);
+  const availActivityMins = Math.max(maxAllowedMins - totalEstimatedTransit, numCandidates * 20);
+
+  const rawDurations = itemsToUse.map((r) => r.durationMinutes || 90);
+  const totalRawDuration = rawDurations.reduce((a, b) => a + b, 0);
+
+  const scaledDurations: number[] = [];
+  if (numCandidates > 0 && totalRawDuration > availActivityMins) {
+    const scaleFactor = availActivityMins / totalRawDuration;
+    const minMins = numCandidates >= 4 ? 25 : 35;
+    itemsToUse.forEach((r, idx) => {
+      const raw = rawDurations[idx];
+      const scaled = Math.max(minMins, Math.round(raw * scaleFactor));
+      scaledDurations.push(scaled);
+    });
+  } else {
+    itemsToUse.forEach((r, idx) => {
+      scaledDurations.push(rawDurations[idx]);
+    });
+  }
+
   for (let i = 0; i < itemsToUse.length; i++) {
     const r = itemsToUse[i];
     const transitMins = items.length > 0 ? 15 : 0;
-    if (items.length > 0 && totalMins + transitMins + r.durationMinutes > maxAllowedMins) {
-      break;
+    const duration = scaledDurations[i] || r.durationMinutes || 45;
+
+    // Strict time constraint check
+    if (items.length > 0 && totalMins + transitMins + duration > maxAllowedMins) {
+      skipped.push({
+        experienceId: r.experienceId,
+        name: r.name,
+        reason: `Exceeded your requested ${params.durationHours || Math.round(maxAllowedMins / 60)} hr schedule limit (scheduled ${items.length} stops to guarantee comfortable dwell time without rushing transit).`,
+      });
+      continue;
     }
 
     const startStr = formatTime(curHour, curMin);
-    curMin += r.durationMinutes;
+    curMin += duration;
     curHour += Math.floor(curMin / 60);
     curMin = curMin % 60;
     const endStr = formatTime(curHour, curMin);
@@ -1117,7 +1149,7 @@ export function buildFallbackItinerary(params: {
       description: r.reason,
       startTime: startStr,
       endTime: endStr,
-      durationMinutes: r.durationMinutes,
+      durationMinutes: duration,
       price: r.price,
       distanceKm: 2.5,
       image: r.image,
@@ -1135,7 +1167,7 @@ export function buildFallbackItinerary(params: {
     });
 
     totalCost += r.price;
-    totalMins += r.durationMinutes + transitMins;
+    totalMins += duration + transitMins;
   }
 
   const destLower = (params.destination || '').trim().toLowerCase();
@@ -1156,7 +1188,7 @@ export function buildFallbackItinerary(params: {
     estimatedTransportCost: 120.0,
     budgetExceeded: false,
     items,
-    skippedExperiences: [],
+    skippedExperiences: skipped,
     createdAt: new Date().toISOString(),
     hasRideAttached: false,
   };
