@@ -398,10 +398,14 @@ export const VerifiedExperienceService = {
    */
   subscribeToChanges(onUpdate: () => void) {
     let channel: any = null;
+    let isCancelled = false;
 
     getActiveTableName().then((tableName) => {
+      if (isCancelled) return;
+
+      const channelName = `verified-experiences-${Date.now()}-${Math.random().toString(36).substring(2, 7)}`;
       channel = supabase
-        .channel('verified-experiences-changes')
+        .channel(channelName)
         .on(
           'postgres_changes',
           {
@@ -417,6 +421,7 @@ export const VerifiedExperienceService = {
     });
 
     return () => {
+      isCancelled = true;
       if (channel) {
         supabase.removeChannel(channel);
       }

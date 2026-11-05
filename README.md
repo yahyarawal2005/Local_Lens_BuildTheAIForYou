@@ -137,6 +137,11 @@ pip install -r requirements.txt
 
 # Run FastAPI dev server
 uvicorn app.main:app --reload
+
+
+cd d:\BuildForU\Local_Lens-main\backend
+venv\Scripts\activate
+uvicorn app.main:app --reload
 ```
 
 Health check verification:

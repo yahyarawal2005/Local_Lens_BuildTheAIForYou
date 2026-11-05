@@ -132,16 +132,19 @@ export default function HomePage() {
     loadVerifiedExperiences(1, false);
   }, [selectedCategory, selectedDestination, searchFilter, loadVerifiedExperiences]);
 
+  const loadVerifiedExperiencesRef = useRef(loadVerifiedExperiences);
+  loadVerifiedExperiencesRef.current = loadVerifiedExperiences;
+
   // Realtime database subscription to automatically update when database changes
   useEffect(() => {
     const unsubscribe = VerifiedExperienceService.subscribeToChanges(() => {
-      loadVerifiedExperiences(1, false);
+      loadVerifiedExperiencesRef.current(1, false);
     });
 
     return () => {
       unsubscribe();
     };
-  }, [loadVerifiedExperiences]);
+  }, []);
 
   // Scroll to experiences helper
   function scrollToExperiences() {
